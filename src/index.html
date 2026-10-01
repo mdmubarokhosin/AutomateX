@@ -1,0 +1,1637 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Home" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+        <section class="relative pb-20 md:pt-47.5 pt-37.5 lg:pb-37.5 overflow-hidden flex flex-col items-center text-center">
+
+            <img src="/images/hero/hero-bg.svg" alt="Hero Background" class="w-full md:h-150 h-67.5 absolute top-0">
+
+            <div class="container relative z-10 px-4 flex flex-col items-center">
+                <div>
+                    <!-- Top Badge -->
+                    <div class="inline-flex items-center justify-center px-3.75 py-1 rounded-full border border-primary-7/30 bg-white backdrop-blur-sm mb-4">
+                        <span class="text-sm font-medium text-default-800" data-i18n="home.badge">AI-Powered autonomous agents</span>
+                    </div>
+
+                    <!-- Title -->
+                    <h1 class="text-[40px] md:text-[64px] lg:text-7xl font-bold tracking-tight text-default-950 mb-4 max-w-4xl mx-auto leading-tight" data-i18n-html="home.title">
+                        Build smarter AI agents <br class="hidden md:block">
+                        that <span class="text-primary-7 relative inline-flex items-baseline">
+                            <span id="typing-text" class="relative after:content-[''] after:inline-block after:w-1.5 md:after:w-2 after:h-[1.1em] after:bg-primary-7 after:ml-1.5 after:animate-pulse after:align-middle after:-translate-y-[0.05em]">Automate</span>
+                        </span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p class="text-lg md:text-xl text-default-600 max-w-xl mx-auto mb-6.5 leading-[1.1] font-normal" data-i18n="home.desc">
+                        Design, deploy, and manage AI agents that automate real work with guardrails, visibility, and control.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="flex flex-row items-center justify-center gap-4 lg:mb-15">
+                        <!-- Start free trial -->
+                        <a href="pricing.html" class="group inline-flex justify-center items-center relative overflow-hidden rounded-xl font-medium text-white transition-all duration-300 z-10 w-full md:w-auto bg-[linear-gradient(260deg,var(--color-primary-2),var(--color-primary-7)_30%,var(--color-primary-3)_60%,var(--color-primary-1))] md:py-4.5 py-3 md:px-8 px-3.75 border border-transparent">
+                            <span class="invisible md:text-lg text-base">Start free trial</span>
+                            <span class="absolute inset-0 flex items-center justify-center transition-all duration-600 transform translate-y-0 opacity-100 md:text-lg text-base group-hover:-translate-y-full group-hover:opacity-0 whitespace-nowrap">Start free trial</span>
+                            <span class="absolute inset-0 flex items-center justify-center transition-all duration-600 transform translate-y-full opacity-0 md:text-lg text-base group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">Start free trial</span>
+                        </a>
+
+                        <!-- See how it works -->
+                        <a href="#step" class="group inline-flex justify-center items-center relative overflow-hidden rounded-xl font-medium transition-all duration-300 z-10 w-full md:w-auto bg-white border border-default-200 text-default-900 hover:bg-default-50 md:py-4.5 py-3 md:px-8 px-3.75">
+                            <span class="invisible md:text-lg text-base">See how it works</span>
+                            <span class="absolute inset-0 flex items-center justify-center transition-all duration-600 transform translate-y-0 opacity-100 md:text-lg text-base group-hover:-translate-y-full group-hover:opacity-0 whitespace-nowrap">See how it works</span>
+                            <span class="absolute inset-0 flex items-center justify-center transition-all duration-600 transform translate-y-full opacity-0 md:text-lg text-base  group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">See how it works</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Floating UI & Center Media Container -->
+                <div class="relative w-full mx-auto lg:h-165 md:h-130 h-100 mt-6 mb-20 z-20">
+
+                    <!-- Blur Background Vector -->
+                    <div class="absolute lg:top-143 md:top-135 top-100 inset-s-1/2 -translate-x-1/2 -translate-y-1/2 z-40 pointer-events-none  lg:w-3xl md:w-2xl w-90">
+                        <img src="/images/hero/decoration-8.svg" alt="Background blur" class="w-full h-auto">
+                    </div>
+
+                    <!-- Center Video -->
+                    <div class="absolute inset-s-1/2 -translate-x-1/2 lg:top-0 md:top-40 lg:w-lg w-xs lg:h-120 h-100 z-10 ">
+                        <!-- Video mask -->
+                        <div class="absolute inset-0 overflow-hidden">
+                            <video autoplay loop muted playsinline class="w-full h-full object-cover object-top">
+                                <source src="/videos/agentai-video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                    <!-- Left Floating Cards -->
+                    <!-- Meeting Call -->
+                    <div class="absolute inset-s-0 lg:left-[60px] xl:left-[20px] lg:top-10 top-50 z-20 w-[240px] lg:w-82 h-66.25 hidden md:block">
+                        <img src="/images/hero/decoration-01.png" alt="Meeting call" class="w-full rounded-xl">
+                    </div>
+                    <!-- Pill -->
+                    <div class="absolute inset-s-30 bottom-50 z-40 hidden lg:block">
+                        <img src="/images/hero/decoration-04.png" alt="Implies planning" class="h-12.5 rounded-full">
+                    </div>
+
+                    <!-- Right Floating Cards -->
+                    <!-- Source Document -->
+                    <div class="absolute inset-e-0 lg:right-[60px] xl:right-[20px] top-40 lg:top-5 z-20 hidden md:block">
+                        <img src="/images/hero/decoration-02.png" alt="Source Document" class="lg:w-80 w-50 lg:h-74 h-50 bg-cover rounded-lg">
+                    </div>
+                    <!-- Model & info -->
+                    <div class="absolute inset-e-0 lg:bottom-45 bottom-20 z-20 hidden md:block">
+                        <img src="/images/hero/decoration-03.png" alt="Model & information" class="lg:w-60 w-40 rounded-lg animate-[translate-y-2_6s_ease-in-out_infinite_alternate]">
+                    </div>
+
+                </div>
+
+                <!-- Floating UI & Center Media Container -->
+                <div class="relative w-full md:mx-auto h-130 md:h-125 md:mt-12 md:mb-10 z-20">
+
+                    <!-- Center Video -->
+                    <div class="absolute inset-s-1/2 -translate-x-1/2 top-0 w-lg h-120 z-10 hidden lg:block">
+                        <!-- Video mask -->
+                        <div class="absolute inset-0 overflow-hidden">
+                            <video autoplay loop muted playsinline class="w-full h-full object-cover object-top">
+                                <source src="/videos/agentai-video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Bottom Shadow Fade -->
+                        <div class="absolute inset-x-0 bottom-0 h-48 bg-linear-to-t from-body-bg via-body-bg/80 to-transparent z-10 pointer-events-none"></div>
+                    </div>
+
+                    <!-- Comparison Cards Grid -->
+                    <div class="absolute inset-x-0 md:top-[60px] md:mx-auto flex flex-row justify-between items-start z-10 md:px-4 pointer-events-none md:gap-6 gap-2.5">
+                        <!-- Left Card -->
+                        <div class="bg-[#fcebeb] border border-[#f6c4c4] md:rounded-[24px] rounded-xl lg:p-7.5 md:p-5 p-2.5 w-full md:w-[360px] lg:w-100 pointer-events-auto shadow-sm">
+                            <div class="flex items-center gap-3 mb-6">
+                                <i class="iconify lucide--triangle-alert size-6 text-[#dc2626]"></i>
+                                <h3 class="md:text-xl font-semibold text-gray-900">What breaks in real teams</h3>
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-x size-[18px] text-[#ef4444] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Too many repetitive questions and tickets daily</p>
+                                </div>
+                                <div class="h-px w-full bg-[#f6c4c4]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-x size-[18px] text-[#ef4444] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Context spread across docs, chat, and tools</p>
+                                </div>
+                                <div class="h-px w-full bg-[#f6c4c4]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-x size-[18px] text-[#ef4444] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Inconsistent replies and unclear next steps often</p>
+                                </div>
+                                <div class="h-px w-full bg-[#f6c4c4]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-x size-[18px] text-[#ef4444] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Automation without visibility creates a serious risk</p>
+                                </div>
+                                <div class="h-px w-full bg-[#f6c4c4]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-x size-[18px] text-[#ef4444] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">No insight into what keeps repeating</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Connecting Vectors -->
+                        <div class="hidden lg:flex flex-1 justify-between items-center pointer-events-none self-stretch pt-2 -mx-2 lg:-mx-6 z-0">
+                            <img src="/images/icons/vector-03.svg" class="w-24 lg:w-48 xl:w-56 object-cover object-left opacity-60">
+                            <img src="/images/icons/vector-03.svg" class="w-24 lg:w-48 xl:w-56 object-cover object-right rotate-180 opacity-60">
+                        </div>
+
+                        <!-- Right Card -->
+                        <div class="bg-[#e9f7ec] border border-[#cbe8d5] md:rounded-[24px] rounded-xl lg:p-7.5 md:p-5 p-2.5 w-full md:w-[360px] lg:w-100 pointer-events-auto shadow-sm">
+                            <div class="flex items-center gap-3 mb-6">
+                                <i class="iconify lucide--lightbulb size-6 text-[#16a34a]"></i>
+                                <h3 class="md:text-xl font-semibold text-gray-900">How agents solve it</h3>
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-check size-[18px] text-[#16a34a] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Handle repeat requests faster with agent templates</p>
+                                </div>
+                                <div class="h-px w-full bg-[#cbe8d5]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-check size-[18px] text-[#16a34a] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Read context inside your existing tools seamlessly</p>
+                                </div>
+                                <div class="h-px w-full bg-[#cbe8d5]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-check size-[18px] text-[#16a34a] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Standardize responses and actions with rules</p>
+                                </div>
+                                <div class="h-px w-full bg-[#cbe8d5]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-check size-[18px] text-[#16a34a] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Require approvals and keep clear audit trails</p>
+                                </div>
+                                <div class="h-px w-full bg-[#cbe8d5]/60"></div>
+                                <div class="flex items-start gap-3">
+                                    <i class="iconify lucide--circle-check size-[18px] text-[#16a34a] mt-0.5 shrink-0"></i>
+                                    <p class="md:text-[15px] text-sm text-gray-700 leading-snug font-medium text-start">Use analytics to spot patterns and fix gaps</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agent Templates Section -->
+        <section class="relative overflow-hidden flex flex-col items-center lg:pb-37.5 pb-25">
+            <div class="container flex flex-col items-center">
+
+                <!-- Header -->
+                <div class="text-center mb-12">
+                    <div class="inline-flex items-center justify-center px-3.75 py-1 rounded-full border border-primary-7/30 bg-white backdrop-blur-sm mb-4">
+                        <span class="text-sm font-medium text-default-800">Ready-to-use agent templates</span>
+                    </div>
+                    <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold text-default-950 tracking-tight leading-tight">Start with an agent<br>built for your work</h2>
+                </div>
+
+                <!-- Carousel / Split Card Container (Swiper) -->
+                <div class="swiper agents-swiper w-full max-w-5xl bg-white rounded-3xl shadow-[0_12px_40px_rgb(0,0,0,0.06)] h-[580px] md:h-[480px] overflow-hidden relative">
+
+                    <div class="swiper-wrapper h-full">
+
+                        <!-- Slide 1: PM Agent -->
+                        <div class="swiper-slide">
+                            <!-- Left Content (White Side) -->
+                            <div class="grid md:grid-cols-2 grid-cols-1 h-full">
+                                <div class="flex-1 p-6 pb-20 md:p-7.5 z-10 flex flex-col justify-center bg-white">
+                                    <h3 class="text-xl md:text-2xl font-bold text-default-950 mb-1.5">PM agent template</h3>
+                                    <p class="text-base md:text-lg text-default-600 mb-7.5 max-w-106 font-normal leading-relaxed">Turn notes into PRDs, generate release notes, and keep Jira updates consistent.</p>
+
+                                    <div class="flex flex-col gap-3 mb-7.5">
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">PRD structure: problem, scope, UX, edge cases</p>
+                                        </div>
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Decision summaries with links back to sources</p>
+                                        </div>
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Status updates written for stakeholders</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-row items-center gap-4 md:gap-6 mt-auto">
+                                        <a href="pricing.html" class="group relative inline-flex items-center justify-center bg-default-800 shadow-xl hover:bg-black text-white px-5 py-2.5 md:px-7 md:py-3.5 text-base md:text-lg rounded-xl font-medium transition-colors overflow-hidden">
+                                            <div class="relative overflow-hidden h-6">
+                                                <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Create agent</span>
+                                                <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">Create agent</span>
+                                            </div>
+                                        </a>
+                                        <a href="agents.html" class="inline-flex items-center justify-center text-primary-7 font-medium hover:text-primary-7/80 transition-colors group text-base md:text-lg">
+                                            View all agents
+                                            <i class="iconify lucide--chevron-right size-4 transition-transform group-hover:translate-x-1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Right Graphic (Dark Side) -->
+                                <div class="flex-1 relative min-h-[350px] md:h-full overflow-hidden bg-white hidden md:block">
+                                    <!-- Circular Background Container (agents-bg) -->
+                                    <div class="absolute -inset-e-[160px] top-1/2 -translate-y-1/2 w-[480px] h-[480px] rounded-full bg-linear-to-b from-[#292828] to-[#131313] overflow-hidden pointer-events-none flex items-center justify-end">
+                                        <!-- Curved Background Image Slat Overlay -->
+                                        <img src="/images/hero/decoration-07.png" class="w-full h-full object-cover opacity-20 pointer-events-none scale-105" alt="Curved background">
+                                    </div>
+
+                                    <!-- Avatars -->
+                                    <div class="absolute inset-0 z-10 pointer-events-none">
+                                        <img src="/images/avatar/avatar-20.png" class="absolute top-[12%] inset-s-[45%] md:left-[42%] size-12.5 rounded-full object-cover" alt="Avatar">
+                                        <img src="/images/avatar/avatar-21.jpg" class="absolute top-[36%] inset-s-[25%] md:left-[28%] size-25 rounded-full object-cover" alt="Avatar">
+                                        <img src="/images/avatar/avatar-26.jpg" class="absolute bottom-[12%] inset-s-[45%] md:left-[42%] size-12.5 rounded-full object-cover" alt="Avatar">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: HR Agent -->
+                        <div class="swiper-slide">
+                            <div class="grid md:grid-cols-2 grid-cols-1 h-full">
+                                <!-- Left Content (White Side) -->
+                                <div class="flex-1 p-6 pb-20 md:p-7.5 z-10 flex flex-col justify-center bg-white">
+                                    <h3 class="text-xl md:text-2xl font-bold text-default-950 mb-1.5">HR agent template</h3>
+                                    <p class="text-base md:text-lg text-default-600 mb-7.5 max-w-106 font-normal leading-relaxed">Answer policy questions, assist onboarding, and draft HR documents</p>
+
+                                    <div class="flex flex-col gap-2 mb-7.5">
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Policy-safe responses with “when to escalate”</p>
+                                        </div>
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Onboarding checklist and role-specific guidance</p>
+                                        </div>
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Drafts emails, letters & announcements</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-row items-center gap-4 md:gap-6 mt-auto">
+                                        <a href="pricing.html" class="group relative inline-flex items-center justify-center bg-default-800 shadow-xl hover:bg-black text-white px-5 py-2.5 md:px-7 md:py-3.5 text-base md:text-lg rounded-xl font-medium transition-colors overflow-hidden">
+                                            <div class="relative overflow-hidden h-6">
+                                                <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Create agent</span>
+                                                <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">Create agent</span>
+                                            </div>
+                                        </a>
+                                        <a href="agents.html" class="inline-flex items-center flex justify-center items-center text-primary-7 font-medium hover:text-primary-7/80 transition-colors group text-base md:text-lg">
+                                            View all agents
+                                            <i class="iconify lucide--chevron-right size-4 transition-transform group-hover:translate-x-1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Right Graphic (Dark Side) -->
+                                <div class="flex-1 relative min-h-[350px] md:h-full overflow-hidden bg-white hidden md:block">
+                                    <!-- Circular Background Container (agents-bg) -->
+                                    <div class="absolute -inset-e-[160px] top-1/2 -translate-y-1/2 w-[480px] h-[480px] rounded-full bg-linear-to-b from-[#292828] to-[#131313] overflow-hidden pointer-events-none flex items-center justify-center">
+                                        <!-- Curved Background Image Slat Overlay -->
+                                        <img src="/images/hero/decoration-07.png" class="w-full h-full object-cover opacity-20 pointer-events-none scale-105" alt="Curved background">
+                                    </div>
+
+                                    <!-- Avatars -->
+                                    <div class="absolute inset-0 z-10 pointer-events-none">
+                                        <img src="/images/avatar/avatar-21.jpg" class="absolute top-[12%] inset-s-[45%] md:left-[42%] size-12.5 rounded-full object-cover" alt="Avatar">
+                                        <img src="/images/avatar/avatar-26.jpg" class="absolute top-[36%] inset-s-[25%] md:left-[28%] size-25 rounded-full object-cover" alt="Avatar">
+                                        <img src="/images/avatar/avatar-20.png" class="absolute bottom-[12%] inset-s-[45%] md:left-[42%] size-12.5 rounded-full object-cover" alt="Avatar">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3: Support Agent -->
+                        <div class="swiper-slide">
+                            <div class="grid md:grid-cols-2 grid-cols-1 h-full">
+                                <!-- Left Content (White Side) -->
+                                <div class="flex-1 p-6 pb-20 md:p-7.5 z-10 flex flex-col justify-center bg-white">
+                                    <h3 class="text-xl md:text-2xl font-bold text-default-950 mb-1.5">Support agent template</h3>
+                                    <p class="text-base md:text-lg text-default-600 mb-7.5 max-w-106 font-normal leading-relaxed">Deflect common questions, draft replies, route edge cases, and keep internal notes clean.</p>
+
+                                    <div class="flex flex-col gap-2 mb-7.5">
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Pulls answers from docs and past tickets</p>
+                                        </div>
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Triage rules: priority, tags, and escalation</p>
+                                        </div>
+                                        <div class="flex lg:items-center items-start gap-2">
+                                            <i class="iconify tabler--circle-check-filled size-4 text-primary-6 shrink-0 lg:mt-0 mt-1"></i>
+                                            <p class="text-base text-default-600 font-normal">Writes customer-ready responses in your tone</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-row items-center gap-4 md:gap-6 mt-auto">
+                                        <a href="pricing.html" class="group relative inline-flex items-center justify-center bg-default-800 shadow-xl hover:bg-black text-white px-5 py-2.5 md:px-7 md:py-3.5 text-base md:text-lg rounded-xl font-medium transition-colors overflow-hidden">
+                                            <div class="relative overflow-hidden h-6">
+                                                <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Create agent</span>
+                                                <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">Create agent</span>
+                                            </div>
+                                        </a>
+                                        <a href="agents.html" class="inline-flex items-center flex justify-center items-center text-primary-7 font-medium hover:text-primary-7/80 transition-colors group text-base md:text-lg">
+                                            View all agents
+                                            <i class="iconify lucide--chevron-right size-4 transition-transform group-hover:translate-x-1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Right Graphic (Dark Side) -->
+                                <div class="flex-1 relative min-h-[350px] md:h-full overflow-hidden bg-white hidden md:block">
+                                    <!-- Circular Background Container (agents-bg) -->
+                                    <div class="absolute -inset-e-[160px] top-1/2 -translate-y-1/2 w-[480px] h-[480px] rounded-full bg-linear-to-b from-[#292828] to-[#131313] overflow-hidden pointer-events-none flex items-center justify-center">
+                                        <!-- Curved Background Image Slat Overlay -->
+                                        <img src="/images/hero/decoration-07.png" class="w-full h-full object-cover opacity-20 pointer-events-none scale-105" alt="Curved background">
+                                    </div>
+
+                                    <!-- Avatars -->
+                                    <div class="absolute inset-0 z-10 pointer-events-none">
+                                        <img src="/images/avatar/avatar-26.jpg" class="absolute top-[12%] inset-s-[45%] md:left-[42%] size-12.5 rounded-full object-cover" alt="Avatar">
+                                        <img src="/images/avatar/avatar-20.png" class="absolute top-[36%] inset-s-[25%] md:left-[28%] size-25 rounded-full object-cover" alt="Avatar">
+                                        <img src="/images/avatar/avatar-21.jpg" class="absolute bottom-[12%] inset-s-[45%] md:left-[42%] size-12.5 rounded-full object-cover" alt="Avatar">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls (Next/Prev) -->
+                    <div class="absolute inset-s-6 bottom-6 md:left-auto md:right-6 lg:right-10 md:top-1/2 md:-translate-y-1/2 flex flex-row md:flex-col gap-3.5 z-20">
+                        <button class="agents-next bg-white border border-default-200 md:border-transparent text-default-950 text-sm font-medium px-4 py-2 md:px-5 md:py-2.5 rounded-xl md:rounded-lg flex items-center justify-between gap-1 hover:bg-default-50 transition-colors group shadow-[0_2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
+                            Next <i class="iconify lucide--chevron-right size-4 text-default-500 group-hover:text-default-950 transition-colors"></i>
+                        </button>
+                        <button class="agents-prev bg-white border border-default-200 md:border-transparent text-default-950 text-sm font-medium px-4 py-2 md:px-5 md:py-2.5 rounded-xl md:rounded-lg flex items-center justify-between gap-1 hover:bg-default-50 transition-colors group shadow-[0_2px_10px_rgba(0,0,0,0.05)] md:shadow-none">
+                            <i class="iconify lucide--chevron-left size-4 text-default-500 group-hover:text-default-950 transition-colors"></i> Prev
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works Section -->
+        <section id="step" class="lg:mx-10 mx-5">
+            <div class="relative bg-black mx-auto rounded-2xl text-white h-auto md:h-[300vh] w-full">
+                <!-- Sticky Container -->
+                <div class="relative md:sticky md:top-0 h-auto md:h-screen w-full flex flex-col justify-center rounded-2xl overflow-hidden lg:py-37.5 md:py-25 py-20">
+
+                    <!-- Background images -->
+                    <div class="absolute inset-0 z-0 pointer-events-none flex justify-center">
+                        <img src="/images/icons/vector-11.png" class="absolute inset-s-0 bottom-0 h-auto object-cover opacity-80" alt="">
+                        <img src="/images/icons/vector-02.avif" class="absolute top-0 inset-e-0 w-full h-full object-cover opacity-50 mix-blend-screen" alt="">
+                    </div>
+
+                    <div class="container relative z-10 h-full flex flex-col">
+                        <!-- Section Header -->
+                        <div class="mb-12 lg:max-w-100 md:w-sm shrink-0">
+                            <h2 class="text-3xl md:text-[40px] lg:text-5xl font-semibold mb-4 text-white">How it works</h2>
+                            <p class="text-default-400 text-lg leading-relaxed">Connect sources, choose a template, and deploy with rules that your team can trust.</p>
+                        </div>
+
+                        <!-- Steps Container -->
+                        <div class="relative w-full flex-1 flex flex-col gap-16 md:block">
+                            <!-- Step 01 -->
+                            <div id="step-01" class="relative md:absolute md:inset-0 grid grid-cols-1 md:grid-cols-[1fr_1.5fr_1fr] items-center gap-8 lg:gap-6 transition-opacity duration-500 opacity-100">
+                                <div class="flex flex-col items-start">
+                                    <div class="w-10 h-10 rounded-full border border-[#52298a] flex items-center justify-center bg-[#1d0e33] shadow-[0_0_20px_rgba(168,85,247,0.4)] md:mb-8 mb-4">
+                                        <span class="text-white font-medium text-sm">01</span>
+                                    </div>
+                                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight text-white">Add knowledge<br>and boundaries</h3>
+                                </div>
+                                <div class="flex justify-center h-full max-h-[50vh] items-center">
+                                    <img src="/images/blog/step-01.png" class="w-full max-w-2xl max-h-full object-contain drop-shadow-2xl" alt="Step 01">
+                                </div>
+                                <div class="lg:pl-8">
+                                    <p class="text-default-400 text-base md:text-lg leading-relaxed">Bring your docs, help center, and internal pages. Define what the agent can use and what it must avoid.</p>
+                                </div>
+                            </div>
+
+                            <!-- Step 02 -->
+                            <div id="step-02" class="relative md:absolute md:inset-0 grid grid-cols-1 md:grid-cols-[1fr_1.5fr_1fr] items-center gap-8 lg:gap-6 transition-opacity duration-500 opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none">
+                                <div class="flex flex-col items-start">
+                                    <div class="w-10 h-10 rounded-full border border-[#52298a] flex items-center justify-center bg-[#1d0e33] shadow-[0_0_20px_rgba(168,85,247,0.4)] md:mb-8 mb-4">
+                                        <span class="text-white font-medium text-sm">02</span>
+                                    </div>
+                                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight text-white">Pick a template<br>and set rules</h3>
+                                </div>
+                                <div class="flex justify-center h-full max-h-[50vh] items-center">
+                                    <img src="/images/blog/step-02.png" class="w-full max-w-2xl max-h-full object-contain drop-shadow-2xl" alt="Step 02">
+                                </div>
+                                <div class="lg:pl-8">
+                                    <p class="text-default-400 text-base md:text-lg leading-relaxed">Choose a template, set tone, decide when to escalate, and choose which actions need approvals.</p>
+                                </div>
+                            </div>
+
+                            <!-- Step 03 -->
+                            <div id="step-03" class="relative md:absolute md:inset-0 grid grid-cols-1 md:grid-cols-[1fr_1.5fr_1fr] items-center gap-8 lg:gap-6 transition-opacity duration-500 opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none">
+                                <div class="flex flex-col items-start">
+                                    <div class="w-10 h-10 rounded-full border border-[#52298a] flex items-center justify-center bg-[#1d0e33] shadow-[0_0_20px_rgba(168,85,247,0.4)] md:mb-8 mb-4">
+                                        <span class="text-white font-medium text-sm">03</span>
+                                    </div>
+                                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight text-white">Deploy to channels<br>and tools</h3>
+                                </div>
+                                <div class="flex justify-center h-full max-h-[50vh] items-center">
+                                    <img src="/images/blog/step-03.png" class="w-full max-w-2xl max-h-full object-contain drop-shadow-2xl" alt="Step 03">
+                                </div>
+                                <div class="lg:pl-8">
+                                    <p class="text-default-400 text-base md:text-lg leading-relaxed">Run agents in chat, helpdesk, or internal workflows. Keep logs so teams can review and improve.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations Section -->
+        <section class="relative overflow-hidden lg:py-37.5 md:py-25 py-20">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="flex flex-col justify-center items-center text-center mx-auto gap-8 mb-12.5">
+                    <!-- Left: Badge + Title -->
+                    <div class="flex flex-col gap-2.5">
+                        <div class="inline-flex items-center justify-center self-center px-3.75 py-1 rounded-full border border-primary-7/30 bg-white backdrop-blur-sm">
+                            <span class="text-sm font-medium text-default-800">Works across your stack</span>
+                        </div>
+                        <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold text-default-950 tracking-tight leading-tight max-w-xl">Integrates where your team already works</h2>
+                    </div>
+                    <!-- Right: CTA Button -->
+                    <div class="shrink-0">
+                        <a href="/integrations" class="group relative inline-flex items-center justify-center bg-default-800 shadow-xl hover:bg-black text-white px-7 py-3.5 text-lg rounded-xl font-medium transition-colors overflow-hidden">
+                            <div class="relative overflow-hidden h-6">
+                                <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">View all integrations</span>
+                                <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">View all integrations</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ticker Rows Wrapper (with left/right fade masks) -->
+                <div class="relative">
+                    <!-- Left fade overlay -->
+                    <div class="absolute inset-s-0 top-0 bottom-0 w-32 lg:w-48 z-10 pointer-events-none" style="background: linear-gradient(to right, var(--color-body-bg) 0%, transparent 100%);"></div>
+                    <!-- Right fade overlay -->
+                    <div class="absolute inset-e-0 top-0 bottom-0 w-32 lg:w-48 z-10 pointer-events-none" style="background: linear-gradient(to left, var(--color-body-bg) 0%, transparent 100%);"></div>
+
+                    <div class="flex flex-col gap-4 overflow-hidden">
+
+                        <!-- Row 1: Scrolls LEFT -->
+                        <div class="flex gap-4 animate-marquee whitespace-nowrap" style="width: max-content;">
+                            <!-- Set 1 -->
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-01.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-01.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">FlowSync</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-12.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-02.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">DataNest</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-05.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-04.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Cloudly</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-10.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-08.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Nexlify</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-16.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-09.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Syncora</span>
+                            </div>
+                            <!-- Set 2 (duplicate for seamless loop) -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-01.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-01.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">FlowSync</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-12.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-02.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">DataNest</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-05.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-04.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Cloudly</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-10.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-08.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Nexlify</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-16.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-09.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Syncora</span>
+                            </div>
+                        </div>
+
+                        <!-- Row 2: Scrolls RIGHT (reverse) -->
+                        <div class="flex gap-4 animate-marquee-reverse whitespace-nowrap pb-2" style="width: max-content;">
+                            <!-- Set 1 -->
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-11.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">NoteStack</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-06.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-13.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">AutoZap</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-07.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-12.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">ChatFlow</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-08.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-14.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Supportify</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-15.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Named item -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-04.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">TeamWave</span>
+                            </div>
+                            <!-- Icon only pill -->
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-02.svg" class="h-5" alt="">
+                            </div>
+                            <!-- Set 2 (duplicate for seamless loop) -->
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-11.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">NoteStack</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-06.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-13.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">AutoZap</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-07.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-12.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">ChatFlow</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-08.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-14.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">Supportify</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-15.svg" class="h-5" alt="">
+                            </div>
+                            <div class="inline-flex items-center gap-3 px-5 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/client-04.svg" class="h-5" alt="">
+                                <span class="md:text-lg text-base font-semibold text-default-800">TeamWave</span>
+                            </div>
+                            <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-md shrink-0">
+                                <img src="/images/client/cl-icon-02.svg" class="h-5" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Section -->
+        <section class="relative overflow-hidden pb-37.5">
+            <div class="container">
+
+                <!-- Section Header -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 lg:gap-16 md:mb-12.5 mb-7.5 items-end">
+                    <!-- Left: Badge + Title -->
+                    <div class="flex flex-col gap-2.5">
+                        <div class="inline-flex items-center self-start px-3.75 py-1 rounded-full border border-primary-7/30 bg-white backdrop-blur-sm">
+                            <span class="text-sm font-medium text-default-800">Core features</span>
+                        </div>
+                        <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold text-default-950 tracking-tight leading-tight">Built to turn decisions into reliable actions</h2>
+                    </div>
+                    <!-- Right: Description -->
+                    <div class="flex items-end">
+                        <p class="text-lg text-default-600 font-normal leading-relaxed w-lg">Generate agents that behave consistently, stay within boundaries, and give teams visibility.</p>
+                    </div>
+                </div>
+
+                <!-- Feature Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-7.5">
+
+                    <!-- ====== LEFT COLUMN ====== -->
+                    <div class="flex flex-col gap-5">
+
+                        <!-- Card 1: Workflow actions with guardrails -->
+                        <div class="relative rounded-3xl overflow-hidden shadow-sm lg:p-7.5 px-3.75 py-7.5 flex flex-col group">
+                            <!-- Background Image -->
+                            <div class="absolute inset-0 z-0">
+                                <img src="/images/features/bg-image-05.jpg" alt="Background Gradient" class="w-full h-full object-cover transition-transform duration-700">
+                            </div>
+
+                            <div class="relative z-10 flex flex-col flex-1">
+                                <!-- Top Image Diagram -->
+                                <div class="flex-1 flex items-center justify-center pb-15">
+                                    <img src="/images/features/vector-13.png" alt="Workflow Feature Image" class="w-full max-w-132 h-auto object-contain drop-shadow-2xl">
+                                </div>
+
+                                <!-- Card Footer -->
+                                <div class="mt-auto">
+                                    <h3 class="lg:text-2xl text-xl font-bold text-default-950 mb-2">Workflow actions with guardrails</h3>
+                                    <p class="text-base lg:text-lg text-default-700 font-normal leading-relaxed">Agents draft summaries, create tasks, and route work. You decide what runs automatically and needs approval.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Source boundaries & context -->
+                        <div class="relative rounded-3xl overflow-hidden bg-white shadow-sm lg:p-7.5 px-3.75 py-7.5 flex flex-col group">
+                            <!-- Dotted grid background -->
+                            <div class="absolute inset-0 z-0 pointer-events-none opacity-60" style="background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px); background-size: 24px 24px;"></div>
+
+                            <!-- Left and Right semi-circles (vector-26) -->
+                            <img src="/images/features/vector-26.svg" alt="Decoration" class="absolute -inset-s-20 top-1/2 -translate-y-1/2 w-48 h-82 pointer-events-none">
+                            <img src="/images/features/vector-26.svg" alt="Decoration" class="absolute -inset-e-20 top-1/2 -translate-y-1/2 w-48 h-82 pointer-events-none rotate-180">
+
+                            <div class="relative z-10 flex flex-col flex-1">
+                                <!-- Badges Area -->
+                                <div class="flex-1 flex flex-col items-center justify-center gap-7 pt-4 pb-14">
+                                    <!-- Add Source Button Image -->
+                                    <img src="/images/features/vector-25.png" alt="Add Source" class="h-17.5 w-auto object-contain mb-6 drop-shadow-xl transition-transform duration-500">
+
+                                    <!-- Badges Stack -->
+                                    <div class="relative flex items-center justify-center bg-white border border-default-200 rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-2 pr-3 ps-12.5">
+                                        <img src="/images/features/icon-33.svg" class="absolute size-7.5 bottom-[6px] inset-s-[12px]" alt="Help Center">
+                                        <div class="text-base font-medium text-default-800">Help Center</div>
+                                    </div>
+                                    <div class="relative flex items-center justify-center bg-white border border-default-200 rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-2 pr-3 ps-12.5">
+                                        <img src="/images/features/icon-34.svg" class="absolute size-7.5 bottom-[6px] inset-s-[12px]" alt="Document.pdf">
+                                        <div class="text-base font-medium text-default-800">Document.pdf</div>
+                                    </div>
+                                    <div class="relative flex items-center justify-center bg-white border border-default-200 rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-2 pr-3 ps-12.5">
+                                        <img src="/images/features/icon-35.svg" class="absolute size-7.5 bottom-[6px] inset-s-[12px]" alt="Website">
+                                        <div class="text-base font-medium text-default-800">https://example.com</div>
+                                    </div>
+                                    <div class="relative flex items-center justify-center bg-white border border-default-200 rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-2 pr-3 ps-12.5">
+                                        <img src="/images/features/icon-36.svg" class="absolute size-7.5 bottom-[6px] inset-s-[12px]" alt="Blog">
+                                        <div class="text-base font-medium text-default-800">Random Blog</div>
+                                    </div>
+                                </div>
+
+                                <!-- Card Footer -->
+                                <div class="mt-auto">
+                                    <h3 class="lg:text-2xl text-xl font-bold text-default-950 mb-2">Source boundaries & context</h3>
+                                    <p class="text-base lg:text-lg text-default-700 font-normal leading-relaxed">Limit what agents can access by defining approved sources like docs, help centers, or internal pages.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ====== RIGHT COLUMN ====== -->
+                    <div class="flex flex-col gap-5">
+
+                        <!-- Card 3: Workflow actions (dark) + Templates -->
+                        <div class="relative rounded-3xl overflow-hidden bg-default-950 shadow-sm lg:p-7.5 px-3.75 py-7.5 flex flex-col group min-h-[420px]">
+
+                            <!-- Content -->
+                            <div class="relative z-20 flex flex-col flex-1 h-full">
+                                <!-- Top text content -->
+                                <div class="mb-8">
+                                    <h3 class="lg:text-2xl text-xl font-bold text-white mb-2">Workflow actions with guardrails</h3>
+                                    <p class="text-base lg:text-lg text-default-400 font-normal leading-relaxed">Create agents with ready-made templates or simple rules. Customize behavior without starting from scratch.</p>
+                                </div>
+
+                                <!-- Images & Button Area -->
+                                <div class="relative flex-1 flex flex-col items-center justify-end">
+                                    <!-- Top Image (Prompt UI) -->
+                                    <div class="w-full flex justify-center z-10 -mb-2 relative">
+                                        <img src="/images/features/vector-14.png" alt="Template Selector" class="w-full max-w-lg h-auto object-contain transition-transform duration-500">
+                                    </div>
+
+                                    <!-- Bottom Image (Avatars) -->
+                                    <div class="w-full flex justify-center relative z-0">
+                                        <!-- Subtle fade at bottom so avatars blend in -->
+                                        <div class="absolute bottom-0 inset-s-0 w-full h-1/2 bg-linear-to-t from-default-950 to-transparent z-10 pointer-events-none"></div>
+                                        <img src="/images/features/vector-15.png" alt="Agent Avatars" class="w-full max-w-md h-auto object-contain transition-opacity duration-500 group-hover:opacity-100">
+
+                                        <!-- View all agents button overlay -->
+                                        <div class="absolute bottom-6 inset-s-1/2 -translate-x-1/2 z-20 shadow-2xl">
+                                            <a href="agents.html" class="group/btn inline-flex items-center justify-center bg-white text-default-950 px-8 py-4.5 rounded-xl font-medium text-lg hover:bg-default-50 transition-colors overflow-hidden">
+                                                <div class="relative overflow-hidden h-6">
+                                                    <span class="block transition-all duration-300 transform group-hover/btn:-translate-y-full group-hover/btn:opacity-0">View all agents</span>
+                                                    <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover/btn:translate-y-0 group-hover/btn:opacity-100">View all agents</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Visibility & audit trails -->
+                        <div class="relative rounded-3xl overflow-hidden shadow-sm min-h-134 flex flex-col group lg:p-7.5 px-3.75 py-7.5">
+                            <!-- Background Image -->
+                            <div class="absolute inset-0 z-0">
+                                <img src="/images/features/bg-image-06.jpg" alt="Background Gradient" class="w-full h-full object-cover">
+                            </div>
+
+                            <!-- Content -->
+                            <div class="relative z-10 flex flex-col flex-1 h-full">
+                                <!-- Top text content -->
+                                <div class="mb-8">
+                                    <h3 class="lg:text-2xl text-xl font-bold text-default-950 mb-2">Visibility & audit trails</h3>
+                                    <p class="text-base lg:text-lg text-default-700 font-normal leading-relaxed">Every agent action is logged and traceable, so teams can understand what happened and why.</p>
+                                </div>
+
+                                <!-- Floating Elements Area -->
+                                <div class="relative flex-1 flex items-center justify-center mt-4">
+
+                                    <!-- Left Document (Action Log) -->
+                                    <img src="/images/features/vector-23.svg" alt="Action Log" class="absolute z-10 w-48 lg:w-56 h-auto drop-shadow-2xl transition-transform duration-700 rounded-xl me-30" style="transform: translate(-15px, -10px) rotate(-14deg);">
+
+                                    <!-- Right Document (Timeline View) -->
+                                    <img src="/images/features/vector-24.svg" alt="Timeline View" class="absolute z-20 w-48 lg:w-56 h-auto drop-shadow-2xl transition-transform duration-700 rounded-xl ms-40" style="transform: translate(15px, -10px) rotate(14deg);">
+
+                                    <!-- Floating Avatars -->
+                                    <img src="/images/avatar/avatar-04.jpg" alt="Avatar" class="absolute size-10 rounded-full object-cover shadow-xl z-30" style="top: 30%; left: 6%;">
+                                    <img src="/images/avatar/avatar-02.jpg" alt="Avatar" class="absolute size-10 rounded-full object-cover shadow-lg z-30" style="bottom: 5%; left: 12%;">
+                                    <img src="/images/avatar/avatar-05.jpg" alt="Avatar" class="absolute size-10 rounded-full object-cover shadow-lg z-30" style="bottom: -2%; left: 45%; transform: translateX(-50%);">
+                                    <img src="/images/avatar/avatar-03.jpg" alt="Avatar" class="absolute size-10 rounded-full object-cover shadow-lg z-30" style="top: -5%; right: 28%;">
+                                    <img src="/images/avatar/avatar-01.jpg" alt="Avatar" class="absolute size-10 rounded-full object-cover shadow-lg z-30" style="bottom: 22%; right: 8%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ====== BOTTOM FULL-WIDTH CARD ====== -->
+                <div class="relative rounded-3xl overflow-hidden bg-[#0a0a0f] mt-5 min-h-[380px] flex items-center">
+                    <!-- Background Image -->
+                    <div class="absolute inset-0 z-0">
+                        <!-- Subtle dark overlay -->
+                        <div class="absolute inset-0 bg-black/10 z-10 pointer-events-none"></div>
+                        <img src="/images/features/bg-image-07.jpg" alt="Background" class="w-full h-full object-cover">
+                    </div>
+
+                    <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 w-full lg:p-7.5 px-3.75 py-7.5">
+                        <!-- Left: Text + Buttons -->
+                        <div class="flex flex-col justify-between h-full lg:w-md">
+                            <div>
+                                <h3 class="lg:text-2xl text-xl font-bold text-white mb-2.5">Analytics & improvement</h3>
+                                <p class="text-base lg:text-lg text-default-300 font-normal leading-relaxed mb-10">Track adoption, common topics, deflection, and escalation reasons. Fix gaps by improving sources and rules.</p>
+                            </div>
+
+                            <div class="flex flex-wrap items-center gap-6">
+                                <!-- Gradient CTA button -->
+                                <a href="pricing.html" class="group inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-white shadow-lg" style="background: linear-gradient(135deg, #4F46E5, #D946EF);">
+                                    <div class="relative overflow-hidden h-6 flex items-center">
+                                        <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Start free trial</span>
+                                        <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">Start free trial</span>
+                                    </div>
+                                </a>
+
+                                <!-- Text link with icon -->
+                                <a href="agents.html" class="inline-flex items-center gap-4  justify-center text-base font-semibold text-white hover:text-white/80 transition-colors">
+                                    View all agents
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Right: Analytics UI Image -->
+                        <div class="flex items-center justify-center lg:justify-end">
+                            <img src="/images/features/vector-18.png" alt="Analytics Dashboard UI" class="w-full max-w-110 h-auto object-contain drop-shadow-2xl">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-black relative py-32">
+            
+            <!-- <div class="absolute z-2 w-full h-full object-cover bg-[url('/images/features/bg line.svg')] bg-[position:0_0] bg-no-repeat bg-contain inset-s-[-5px] inset-e-[-5px]"></div> -->
+
+            <!-- <div><img src="/images/features/pattern-02.svg" loading="lazy" alt="BG Pattern"></div> -->
+
+            <div class="md:px-20">
+                <div class="w-full flex flex-col items-center">
+                    <div class="flex flex-col items-center text-center mb-15 px-4">
+                        <div class="flex flex-col items-center">
+                            <div class="mb-6">
+                                <div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-white/15 bg-white/5 backdrop-blur-md">
+                                    <div class="text-sm font-medium text-default-200">Real-time agent demo</div>
+                                </div>
+                            </div>
+                            <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold leading-[1.1] text-white mb-4 max-w-125 tracking-tight">Live demo of common use cases</h2>
+                            <p class="text-lg text-default-400 max-w-[500px] mb-8 leading-relaxed">A real-time chat showing how common team workflows are handled from request to completion.</p>
+                        </div>
+                        <div class="flex gap-4 justify-center flex-wrap">
+                            <a href="pricing.html" class="group inline-flex items-center justify-center px-7 py-3.5 rounded-xl font-semibold text-base text-white transition-all duration-300 relative overflow-hidden bg-linear-to-br from-purple-600 to-pink-500 shadow-[0_4px_14px_rgba(124,58,237,0.4)] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(124,58,237,0.6)]">
+                                <div class="relative block overflow-hidden h-6 leading-6">
+                                    <div class="block transition-transform duration-300 group-hover:-translate-y-full">Start for free</div>
+                                    <div class="absolute inset-0 transition-transform duration-300 translate-y-full group-hover:translate-y-0">Start for free</div>
+                                </div>
+                            </a>
+                            <a href="agents.html" class="group inline-flex items-center justify-center px-7 py-3.5 rounded-xl font-semibold text-base text-default-50 transition-all duration-300 relative overflow-hidden bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 hover:-translate-y-0.5">
+                                <div class="relative block overflow-hidden h-6 leading-6">
+                                    <div class="block transition-transform duration-300 group-hover:-translate-y-full">Start with a template</div>
+                                    <div class="absolute inset-0 transition-transform duration-300 translate-y-full group-hover:translate-y-0">Start with a template</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr] gap-6 w-full mx-auto px-4">
+                        <div class="flex flex-wrap justify-center lg:grid lg:grid-cols-2 gap-3 lg:gap-4 relative">
+                            <div class="hidden lg:block absolute inset-x-0 top-0 h-32 bg-linear-to-b from-[#050505] to-transparent z-10 pointer-events-none"></div>
+                            <div class="hidden lg:block absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-[#050505] to-transparent z-10 pointer-events-none"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--ticket w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Support tickets</div>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--key w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Access requests</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--user-plus w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Onboard employees</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--list-check w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Project updates</div>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--phone-call w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Sales follow-ups</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                        </div>
+
+                        <div class="relative rounded-[24px] bg-[#050505] border border-purple-500/20 overflow-hidden shadow-[0_0_40px_rgba(168,85,247,0.15)] flex flex-col w-full h-full ring-1 ring-purple-500/10 min-h-[500px]">
+                            <div class="absolute inset-0 bg-linear-to-br from-purple-900/10 to-transparent pointer-events-none"></div>
+                            <div class="flex justify-between items-center px-6 py-5 border-b border-white/5 relative z-10">
+                                <div>
+                                    <div class="text-base font-semibold text-white">Agent conversation</div>
+                                    <div class="text-xs text-default-400 mt-0.5">AI agent ↔ User</div>
+                                </div>
+                                <div>
+                                    <div class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-green-500/10 border border-green-500/20 rounded-full">
+                                        <div class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
+                                        <div class="text-xs font-medium text-green-500">Live</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-6 flex flex-col gap-6 h-full relative z-10 overflow-hidden">
+                                <div class="flex gap-3 max-w-[85%] self-end flex-row-reverse">
+                                    <div class="bg-linear-to-r from-[#2e1065] to-[#701a75] border border-purple-500/20 text-default-200 rounded-2xl rounded-tr-sm px-4.5 py-3 shadow-md">
+                                        <p class="text-[13px] leading-relaxed m-0">A new teammate joined today. Create an onboarding checklist and request tool access for them.</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 max-w-[85%] self-start">
+                                    <img src="https://cdn.prod.website-files.com/69982176124aec6884c510af/699975cdd83db13d6c96cb66_008896ea654c782341b9f7f6add8daa2_avatar-23.jpg" loading="lazy" alt="Avatar Image" class="w-7 h-7 rounded-full object-cover shrink-0 mt-1 border border-white/10">
+                                    <div class="bg-white/5 text-default-300 rounded-2xl rounded-tl-sm px-4.5 py-3 border border-white/5">
+                                        <p class="text-[13px] leading-relaxed m-0">What's their role and start date? Also, which tools do they need: Slack, Notion, Jira, or GitHub?</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 max-w-[85%] self-end flex-row-reverse">
+                                    <div class="bg-linear-to-r from-[#2e1065] to-[#701a75] border border-purple-500/20 text-default-200 rounded-2xl rounded-tr-sm px-4.5 py-3 shadow-md">
+                                        <p class="text-[13px] leading-relaxed m-0">Marketing agent starting today, connected to Slack, Notion, and Jira to coordinate updates.</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 max-w-[85%] self-start">
+                                    <img src="https://cdn.prod.website-files.com/69982176124aec6884c510af/699975cdd83db13d6c96cb66_008896ea654c782341b9f7f6add8daa2_avatar-23.jpg" loading="lazy" alt="Avatar Image" class="w-7 h-7 rounded-full object-cover shrink-0 mt-1 border border-white/10">
+                                    <div class="bg-white/5 text-default-300 rounded-2xl rounded-tl-sm px-4.5 py-3 border border-white/5">
+                                        <p class="text-[13px] leading-relaxed m-0">Got it. I created an onboarding checklist with week 1 tasks and drafted access requests for Slack, Notion, and Jira.</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3 max-w-[85%] self-start">
+                                    <img src="https://cdn.prod.website-files.com/69982176124aec6884c510af/699975cdd83db13d6c96cb66_008896ea654c782341b9f7f6add8daa2_avatar-23.jpg" loading="lazy" alt="Avatar Image" class="w-7 h-7 rounded-full object-cover shrink-0 mt-1 border border-white/10">
+                                    <div class="bg-white/5 text-default-300 rounded-2xl rounded-tl-sm px-4 py-3 border border-white/5 flex items-center justify-center min-w-[50px]">
+                                        <div class="flex gap-1.5 items-center h-[18px]">
+                                            <div class="w-1.5 h-1.5 bg-default-400 rounded-full animate-pulse" style="animation-delay: 0ms"></div>
+                                            <div class="w-1.5 h-1.5 bg-default-400 rounded-full animate-pulse" style="animation-delay: 150ms"></div>
+                                            <div class="w-1.5 h-1.5 bg-default-400 rounded-full animate-pulse" style="animation-delay: 300ms"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-auto px-6 pb-6 relative z-10">
+                                <div class="h-[1px] bg-white/5 mb-4"></div>
+                                <p class="text-[11px] text-default-500 text-center uppercase tracking-wider font-medium">Example workflow: onboarding + access request</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap justify-center lg:grid lg:grid-cols-2 gap-3 lg:gap-4 relative">
+                            <div class="hidden lg:block absolute inset-x-0 top-0 h-32 bg-linear-to-b from-[#050505] to-transparent z-10 pointer-events-none"></div>
+                            <div class="hidden lg:block absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-[#050505] to-transparent z-10 pointer-events-none"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--headset w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">IT helpdesk</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--message-question w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">HR questions</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--file-text w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Meeting summaries</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--file-check w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Content reviews</div>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 bg-[#0a0a0a] border border-white/10 rounded-[20px] h-[80px] hover:bg-white/5 transition-colors cursor-pointer group">
+                                <i class="iconify tabler--route w-5 h-5 opacity-50 group-hover:opacity-100 transition-opacity text-white"></i>
+                                <div class="text-sm font-medium text-default-400 group-hover:text-white transition-colors">Approvals &amp; routing</div>
+                            </div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                            <div class="hidden lg:block rounded-[20px] border border-white/5 h-[80px]"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row justify-between items-center w-full max-w-7xl mx-auto md:mt-20 mt-12.5 pt-10 border-t border-white/5 gap-10 px-4">
+                        <div class="flex flex-col items-center text-center flex-1">
+                            <h3 class="text-3xl lg:text-6xl font-bold text-white mb-2">20+</h3>
+                            <p class="text-base text-default-400">Common workflows automated</p>
+                        </div>
+                        <div class="flex flex-col items-center text-center flex-1">
+                            <div class="flex flex-col items-center">
+                                <div class="flex justify-center mb-4">
+                                    <img src="/images/avatar/avatar-06.jpg" loading="lazy" alt="Avatar Image" class="w-12 h-12 rounded-xl border-2 border-black -ml-3 first:ml-0 object-cover relative z-10">
+                                    <img src="/images/avatar/avatar-10.jpg" loading="lazy" alt="Avatar Image" class="w-12 h-12 rounded-xl border-2 border-black -ml-3 first:ml-0 object-cover relative z-20">
+                                    <img src="/images/avatar/avatar-02.jpg" loading="lazy" alt="Avatar Image" class="w-12 h-12 rounded-xl border-2 border-black -ml-3 first:ml-0 object-cover relative z-30">
+                                    <img src="/images/avatar/avatar-04.jpg" loading="lazy" alt="Avatar Image" class="w-12 h-12 rounded-xl border-2 border-black -ml-3 first:ml-0 object-cover relative z-40">
+                                    <img src="/images/avatar/avatar-01.jpg" loading="lazy" alt="Avatar Image" class="w-12 h-12 rounded-xl border-2 border-black -ml-3 first:ml-0 object-cover relative z-50">
+                                </div>
+                                <h3 class="text-4xl lg:text-6xl lg:text-[120px] bg-linear-to-br from-purple-600 to-pink-500 bg-clip-text text-transparent leading-[1.1] font-bold mb-2">5,000+</h3>
+                                <p class="text-base text-default-400">Users rely on agents every day</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center text-center flex-1">
+                            <h3 class="text-3xl lg:text-6xl font-bold text-white mb-2">10x</h3>
+                            <p class="text-base text-default-400">Faster handling of repeat requests</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Security Section -->
+        <section class="lg:pt-37.5 md:pt-25 overflow-hidden">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+
+                    <!-- Left: Stacked Carousel -->
+                    <div class="relative h-[400px] sm:h-[450px] md:w-full w-70 mx-auto flex flex-col items-center justify-center lg:items-start lg:justify-start py-10">
+
+                        <div class="swiper security-swiper !overflow-visible w-full max-w-[340px] h-[360px] sm:h-[400px] lg:left-[-20px] xl:left-[-50px]">
+                            <div class="swiper-wrapper">
+
+                                <!-- Card 0: Reflection -->
+                                <div class="swiper-slide rounded-2xl overflow-hidden shadow-2xl relative bg-white">
+                                    <!-- Gradient base: teal to white -->
+                                    <div class="absolute inset-0 bg-linear-to-b from-[#87d7c6] via-[#c9ebe3] to-white"></div>
+                                    <!-- Textured Image Overlay -->
+                                    <div class="absolute inset-0 bg-[url('/images/features/bg-image-03.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+                                    <div class="relative z-10 p-8 h-full flex flex-col justify-between">
+                                        <div class="size-15 rounded-lg bg-black flex items-center justify-center shadow-lg">
+                                            <i class="iconify lucide--refresh-cw text-white size-7.5"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-2xl font-bold text-default-900 mb-2.5">Reflection</h3>
+                                            <p class="text-default-700 text-lg leading-relaxed font-medium">Reflection loops that help agents reflect on results and improve consistency.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 1: Zero data -->
+                                <div class="swiper-slide rounded-2xl overflow-hidden shadow-2xl relative bg-white">
+                                    <!-- Gradient base: blue to white -->
+                                    <div class="absolute inset-0 bg-linear-to-b from-[#a4bcf9] via-[#d1dffb] to-white"></div>
+                                    <!-- Textured Image Overlay -->
+                                    <div class="absolute inset-0 bg-[url('/images/features/bg-image-04.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+                                    <div class="relative z-10 p-8 h-full flex flex-col justify-between">
+                                        <div class="size-15 rounded-lg bg-black flex items-center justify-center shadow-lg">
+                                            <i class="iconify lucide--lock text-white size-7.5"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-2xl font-bold text-default-900 mb-2.5">Zero data retention &amp; training.</h3>
+                                            <p class="text-default-700 text-lg leading-relaxed font-medium">Keep sensitive information out of training and control retention based on your policy.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card 2: Audit -->
+                                <div class="swiper-slide rounded-2xl overflow-hidden shadow-2xl relative bg-white">
+                                    <!-- Gradient base: purple/pink to white -->
+                                    <div class="absolute inset-0 bg-linear-to-b from-[#e3a8f9] via-[#f3d9fc] to-white"></div>
+                                    <!-- Textured Image Overlay -->
+                                    <div class="absolute inset-0 bg-[url('/images/features/bg-image-02.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+                                    <div class="relative z-10 p-8 h-full flex flex-col justify-between">
+                                        <div class="size-15 rounded-lg bg-black flex items-center justify-center shadow-lg">
+                                            <i class="iconify lucide--shield-check text-white size-7.5"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-2xl font-bold text-default-900 mb-2.5">Audit everything</h3>
+                                            <p class="text-default-700 text-lg leading-relaxed font-medium">Deep insight and auditing into what agents do, what they use, and what they escalate.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Dots Navigation -->
+                            <div class="swiper-pagination security-pagination absolute !bottom-[-40px] sm:!bottom-[-50px] inset-s-0 w-full flex items-center justify-center gap-2 z-40"></div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Content -->
+                    <div class="flex flex-col items-start text-left">
+                        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-default-900 leading-[1.1] tracking-tight mb-5">Built for control, privacy, and accountability</h2>
+                        <p class="text-default-600 text-lg md:mb-7.5 mb-5 leading-relaxed max-w-lg">Agents are designed to operate within clear boundaries, with full visibility and human oversight.</p>
+
+                        <a href="contact-us.html" class="group relative inline-block w-full md:w-auto bg-black text-white text-lg font-semibold py-4 px-7.5 rounded-xl shadow-lg transition-colors overflow-hidden md:mb-12.5 mb-7.5">
+                            <div class="relative overflow-hidden h-6 flex items-center justify-center">
+                                <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0 whitespace-nowrap">Get started now</span>
+                                <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">Get started now</span>
+                            </div>
+                        </a>
+
+                        <!-- Security Badges -->
+                        <div class="flex items-center justify-center lg:justify-start gap-5 sm:gap-6 flex-wrap">
+                            <img src="/images/icons/security-icon1.svg" alt="AICPA SOC" class="h-17.5 w-auto">
+                            <img src="/images/icons/security-icon2.svg" alt="GDPR" class="h-17.5 w-auto">
+                            <img src="/images/icons/security-icon3.svg" alt="HIPAA Compliant" class="h-17.5 w-auto">
+                        </div>
+
+
+                    </div>
+                </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="py-24 lg:py-32">
+            <div class="container">
+                <!-- Header -->
+                <div class="text-center max-w-2xl mx-auto mb-7.5">
+                    <div class="inline-flex justify-center items-center rounded-full bg-linear-to-r from-fuchsia-500 via-purple-500 to-indigo-500 p-[1px] mb-4">
+                        <div class="bg-white rounded-full px-4 py-1 flex items-center justify-center">
+                            <span class="text-sm font-medium text-default-800">Pricing plans</span>
+                        </div>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-default-900 tracking-tight leading-tight">Simple, scalable pricing</h2>
+                </div>
+
+                <!-- Toggle -->
+                <div class="flex justify-center items-center gap-3 mb-12.5">
+                    <span class="text-base font-medium text-default-600">Monthly</span>
+
+                    <label for="pricing-switch" class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" id="pricing-switch" class="sr-only peer">
+                        <div class="w-[42px] h-6 bg-default-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-default-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-default-200"></div>
+                    </label>
+
+                    <div class="flex items-center gap-2">
+                        <span class="text-base font-medium text-default-900">Yearly</span>
+                        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500 text-white">20% off</span>
+                    </div>
+                </div>
+
+                <!-- Pricing Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-6">
+                    <!-- Starter Plan -->
+                    <div class="bg-white rounded-2xl shadow-sm border border-default-100 flex flex-col">
+                        <div class="bg-black rounded-2xl lg:p-7.5 md:p-5 p-3.75 text-white">
+                            <h3 class="text-2xl font-bold mb-2.5 text-white tracking-tight">Starter plan</h3>
+                            <p class="text-default-400 text-lg mb-5 leading-relaxed">Best for individuals and small teams trying agents.</p>
+                            <div class="flex items-baseline gap-1 mb-5">
+                                <span class="text-3xl md:text-[40px] lg:text-5xl font-bold leading-none tracking-tight">$0</span>
+                                <span class="text-default-500 text-sm font-medium">/month</span>
+                            </div>
+                            <a href="contact-us.html" class="group relative block w-full bg-white text-default-900 text-base font-bold py-4.5 rounded-xl hover:bg-default-50 transition-colors overflow-hidden">
+                                <div class="relative overflow-hidden h-6 flex items-center justify-center">
+                                    <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Get started free</span>
+                                    <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">Get started free</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75">
+                            <ul class="flex flex-col gap-2.5">
+                                <li class="flex items-center gap-2 text-default-700 text-base font-normal"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> 1 agent</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-normal"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Ready-to-use templates</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-normal"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Manual approvals only</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-normal"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Basic activity logs</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-normal"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Community support</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Pro Plan -->
+                    <div class="bg-white rounded-2xl shadow-sm border border-default-100 flex flex-col">
+                        <div class="bg-linear-to-br from-[#6222cc] via-[#9427cd] to-[#d62eb7] rounded-2xl lg:p-7.5 md:p-5 p-3.75 text-white relative overflow-hidden">
+                            <div class="pointer-events-none absolute inset-s-0 top-[-190px] w-full h-[400px] bg-[url('/images/icons/decoration-07.png')] bg-[0_0] bg-no-repeat bg-cover rotate-[30deg] z-0"></div>
+                            <div class="relative z-10">
+                                <h3 class="text-2xl font-bold mb-2.5 text-white tracking-tight">Pro plan</h3>
+                                <p class="text-white/80 text-base mb-8 leading-relaxed">For growing teams running real workflows at scale.</p>
+                                <div class="flex items-baseline gap-1 mb-5">
+                                    <span class="text-3xl md:text-[40px] lg:text-5xl font-bold leading-none tracking-tight">$<span data-hs-toggle-count='{"target": "#pricing-switch", "min": 29, "max": 23}'>29</span></span>
+                                    <span class="text-white/70 text-[13px] font-medium">/month</span>
+                                </div>
+                                <a href="contact-us.html" class="group relative block w-full bg-white text-default-900 text-base font-bold py-4.5 rounded-xl hover:bg-default-50 transition-colors overflow-hidden">
+                                    <div class="relative overflow-hidden h-6 flex items-center justify-center">
+                                        <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Start pro trial</span>
+                                        <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">Start pro trial</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75">
+                            <ul class="flex flex-col gap-2.5">
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Up to 10 agents</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Custom templates</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Human-in-the-loop controls</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Basic activity logs</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Community support</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Team Plan -->
+                    <div class="bg-white rounded-2xl shadow-sm border border-default-100 flex flex-col lg:col-span-1 md:col-span-2">
+                        <div class="bg-[#111111] rounded-2xl lg:p-7.5 md:p-5 p-3.75 text-white">
+                            <h3 class="text-2xl font-bold mb-2.5 text-white tracking-tight">Team plan</h3>
+                            <p class="text-default-400 text-lg mb-5 leading-relaxed">For teams managing higher workflow volume.</p>
+                            <div class="flex items-baseline gap-1 mb-5">
+                                <span class="text-3xl md:text-[40px] lg:text-5xl font-bold leading-none tracking-tight">$<span data-hs-toggle-count='{"target": "#pricing-switch", "min": 79, "max": 63}'>79</span></span>
+                                <span class="text-default-500 text-sm font-medium">/month</span>
+                            </div>
+                            <a href="contact-us.html" class="group relative block w-full bg-white text-default-900 text-base font-bold py-4.5 rounded-xl hover:bg-default-50 transition-colors overflow-hidden">
+                                <div class="relative overflow-hidden h-6 flex items-center justify-center">
+                                    <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Upgrade to the team</span>
+                                    <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100">Upgrade to the team</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75">
+                            <ul class="flex flex-col gap-2.5">
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Includes all Pro plan features</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Up to 25 agents</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Advanced analytics</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> All integrations</li>
+                                <li class="flex items-center gap-2 text-default-700 text-base font-medium"><i class="iconify lucide--check text-lg text-primary-7 shrink-0"></i> Higher workflow limits</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="rounded-2xl lg:p-7.5 md:p-5 p-3.75 border border-default-300 flex flex-col lg:flex-row items-start lg:items-center justify-between md:gap-8 gap-5 mt-2">
+                    <div class="max-w-xs">
+                        <h3 class="text-xl md:text-2xl font-bold text-default-900 mb-2">Enterprise plan</h3>
+                        <p class="text-default-500 text-base leading-relaxed">For organizations that need scale, security, and control.</p>
+                    </div>
+                    <div class="flex-grow flex flex-col sm:flex-row items-start gap-x-12 gap-y-4">
+                        <ul class="flex flex-col gap-3">
+                            <li class="flex items-center gap-2 text-default-700 text-[14px] font-medium"><i class="iconify lucide--check size-4 text-[#7c3aed] shrink-0"></i> Unlimited agents</li>
+                            <li class="flex items-center gap-2 text-default-700 text-[14px] font-medium"><i class="iconify lucide--check size-4 text-[#7c3aed] shrink-0"></i> Advanced permissions</li>
+                            <li class="flex items-center gap-2 text-default-700 text-[14px] font-medium"><i class="iconify lucide--check size-4 text-[#7c3aed] shrink-0"></i> SSO & compliance support</li>
+                        </ul>
+                        <ul class="flex flex-col gap-3">
+                            <li class="flex items-center gap-2 text-default-700 text-[14px] font-medium"><i class="iconify lucide--check size-4 text-[#7c3aed] shrink-0"></i> Dedicated audit & analytics</li>
+                            <li class="flex items-center gap-2 text-default-700 text-[14px] font-medium"><i class="iconify lucide--check size-4 text-[#7c3aed] shrink-0"></i> Custom guardrails</li>
+                            <li class="flex items-center gap-2 text-default-700 text-[14px] font-medium"><i class="iconify lucide--check size-4 text-[#7c3aed] shrink-0"></i> Dedicated onboarding</li>
+                        </ul>
+                    </div>
+                    <div class="shrink-0 mt-4 lg:mt-0 w-full lg:w-auto">
+                        <a href="contact-us.html" class="group relative block w-full lg:w-auto bg-[#1a1a1a] text-white text-base font-medium py-3.5 px-8 rounded-xl shadow-xl hover:bg-black transition-colors overflow-hidden">
+                            <div class="relative overflow-hidden h-6 flex items-center justify-center">
+                                <span class="block transition-all duration-300 transform group-hover:-translate-y-full group-hover:opacity-0">Contact sales</span>
+                                <span class="absolute inset-0 flex items-center justify-center transition-all duration-300 transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 whitespace-nowrap">Contact sales</span>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="lg:mx-10 mx-5 py-24 lg:py-32 relative overflow-hidden bg-[url('/images/features/bg-image-01.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl">
+            <!-- Background Pattern -->
+            <div class="absolute z-[1] pointer-events-none bg-[url('/images/icons/vector-08.svg')] bg-[0_0] bg-no-repeat bg-cover w-[850px] h-full bottom-[-351px] inset-s-[-450px] -rotate-[150deg]"></div>
+            <!-- Background Overlay -->
+            <div class="absolute inset-0 pointer-events-none z-[2] bg-linear-to-b from-white to-white/10"></div>
+
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl relative z-10">
+                <!-- Header & Rating -->
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-8 lg:mb-16">
+                    <div class="max-w-2xl">
+                        <div class="inline-flex justify-center items-center rounded-full bg-linear-to-r from-fuchsia-500 via-purple-500 to-indigo-500 p-[1px] mb-6">
+                            <div class="bg-white rounded-full px-4 py-1 flex items-center justify-center">
+                                <span class="text-sm font-medium text-default-800">Clients testimonials</span>
+                            </div>
+                        </div>
+                        <h2 class="text-3xl md:text-4xl lg:text-[44px] font-bold text-default-900 tracking-tight leading-tight">Trusted by teams building<br>real workflows</h2>
+                    </div>
+                    <div class="flex flex-col items-start md:items-end text-left md:text-right">
+                        <div class="flex items-center gap-2 mb-2">
+                            <i class="iconify tabler--star-filled text-[#F59E0B] size-10"></i>
+                            <div class="flex items-baseline gap-0.5">
+                                <span class="text-3xl md:text-[40px] font-bold text-default-900 leading-none">4.9</span>
+                                <span class="text-xl font-bold text-default-900 leading-none">/5</span>
+                            </div>
+                        </div>
+                        <p class="text-default-600 text-base font-medium">Review by 356 users worldwide</p>
+                    </div>
+                </div>
+
+                <!-- Cards Layout -->
+                <div class="flex flex-col gap-6">
+                    <!-- Top Row: 2 Big Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Big Card 1 -->
+                        <div class="bg-white rounded-2xl overflow-hidden flex flex-col sm:flex-row">
+                            <img src="/images/avatar/avatar-18.jpg" class="w-full sm:w-[45%] h-64 sm:h-auto object-cover rounded-2xl" alt="Alex Morgan">
+                            <div class="lg:p-7.5 p-5 sm:w-[55%] flex flex-col justify-between gap-6">
+                                <p class="text-default-700 text-base md:leading-relaxed leading-[1.2] font-normal">“Agents now handle first responses, summaries, and routing. Our team focuses on edge cases instead of repetitive work.”</p>
+                                <div class="flex lg:flex-row flex-col lg:items-end items-start justify-between">
+                                    <div>
+                                        <div class="font-bold text-default-900 text-base">Alex Morgan</div>
+                                        <div class="text-sm text-default-500">Head of Operations</div>
+                                    </div>
+                                    <img src="/images/client/client 14.svg" class="h-4" alt="oslo.">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Big Card 2 -->
+                        <div class="bg-white rounded-2xl overflow-hidden flex flex-col sm:flex-row">
+                            <img src="/images/avatar/avatar-19.jpg" class="w-full sm:w-[45%] h-64 sm:h-auto object-cover rounded-2xl" alt="Priya Shah">
+                            <div class="lg:p-7.5 p-5 sm:w-[55%] flex flex-col justify-between gap-6">
+                                <p class="text-default-700 text-base md:leading-relaxed leading-[1.2] font-normal">“Knowing exactly what the agent did and why made it easy to roll this out across teams without risk.”</p>
+                                <div class="flex lg:flex-row flex-col lg:items-end items-start justify-between">
+                                    <div>
+                                        <div class="font-bold text-default-900 text-base">Priya Shah</div>
+                                        <div class="text-sm text-default-500">Product Manager</div>
+                                    </div>
+                                    <img src="/images/client/client-05.svg" class="h-4" alt="London">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Row: 3 Small Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Small Card 1 -->
+                        <div class="bg-white rounded-3xl lg:p-7.5 md:p-5 p-3.75 flex flex-col h-full gap-8">
+                            <p class="text-default-700 text-base lg:leading-relaxed leading-[1.2] font-normal">“We started with a PM agent, then customized it as workflows evolved. No rebuilding from scratch.”</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <div class="flex lg:flex-row md:flex-col flex-row lg:items-center items-start gap-3">
+                                    <img src="/images/avatar/avatar-16.jpg" class="size-12.5 rounded-full object-cover" alt="Daniel Brooks">
+                                    <div>
+                                        <div class="font-bold text-default-900 text-base">Daniel Brooks</div>
+                                        <div class="text-sm text-default-500">Engineering Lead</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="bg-default-100 hover:bg-default-200 transition-colors size-8 rounded-full flex items-center justify-center shrink-0">
+                                    <i class="iconify tabler--brand-x size-3.5 text-default-800"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Small Card 2 -->
+                        <div class="bg-white rounded-3xl lg:p-7.5 md:p-5 p-3.75 flex flex-col h-full gap-8">
+                            <p class="text-default-700 text-base lg:leading-relaxed leading-[1.2] font-normal">“Before this, every team handled requests differently. Now we have consistent workflows with clear approvals and visibility.”</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <div class="flex lg:flex-row md:flex-col flex-row lg:items-center items-start gap-3">
+                                    <img src="/images/avatar/avatar-01.jpg" class="size-12.5 rounded-full object-cover" alt="Sarah Kim">
+                                    <div>
+                                        <div class="font-bold text-default-900 text-base">Sarah Kim</div>
+                                        <div class="text-sm text-default-500">Program Manager</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="bg-default-100 hover:bg-default-200 transition-colors size-8 rounded-full flex items-center justify-center shrink-0">
+                                    <i class="iconify tabler--brand-x size-3.5 text-default-800"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Small Card 3 -->
+                        <div class="bg-white rounded-3xl lg:p-7.5 md:p-5 p-3.75 flex flex-col h-full gap-8">
+                            <p class="text-default-700 text-base lg:leading-relaxed leading-[1.2] font-normal">“Guardrails and human approvals made it safe to automate real workflows, not just demos.”</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <div class="flex lg:flex-row md:flex-col flex-row lg:items-center items-start gap-3">
+                                    <img src="/images/avatar/avatar-05.jpg" class="size-12.5 rounded-full object-cover" alt="Michael Torres">
+                                    <div>
+                                        <div class="font-bold text-default-900 text-base">Michael Torres</div>
+                                        <div class="text-sm text-default-500">IT Operations Lead</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="bg-default-100 hover:bg-default-200 transition-colors size-8 rounded-full flex items-center justify-center shrink-0">
+                                    <i class="iconify tabler--brand-x size-3.5 text-default-800"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 lg:py-37.5">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+                <!-- Header -->
+                <div class="text-center md:mb-12.5 mb-7.5">
+                    <div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-purple-200 bg-white mb-4">
+                        <span class="text-sm font-medium text-default-800">Need help?</span>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-default-800 tracking-tight">Frequently asked questions</h2>
+                </div>
+
+                <!-- Preline Accordion -->
+                <div class="hs-accordion-group space-y-4 lg:w-3xl mx-auto">
+                    <!-- Item 1 -->
+                    <div class="hs-accordion active bg-white border border-default-100 rounded-2xl shadow-sm" id="hs-basic-heading-one">
+                        <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-basic-collapse-one">
+                            What is an AI agent in this product?
+                            <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                <i class="iconify lucide--plus size-4"></i>
+                            </span>
+                            <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                <i class="iconify lucide--minus size-4"></i>
+                            </span>
+                        </button>
+                        <div id="hs-basic-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-one">
+                            <div class="pb-5 md:px-7.5 px-5">
+                                <p class="text-default-600 leading-relaxed text-lg font-normal">
+                                    An agent is a task-focused assistant that can read context, follow rules, and take actions like drafting responses, creating tasks, or routing requests, with approvals where needed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="hs-accordion bg-white border border-default-100 rounded-2xl shadow-sm" id="hs-basic-heading-two">
+                        <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-basic-collapse-two">
+                            How is this different from a chatbot?
+                            <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                <i class="iconify lucide--plus size-4"></i>
+                            </span>
+                            <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                <i class="iconify lucide--minus size-4"></i>
+                            </span>
+                        </button>
+                        <div id="hs-basic-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-two">
+                            <div class="pb-5 md:px-7.5 px-5">
+                                <p class="text-default-600 leading-relaxed text-lg font-normal">
+                                    Chatbots reply to messages. Agents clarify intent, pull the right context, and complete workflows within defined guardrails and audit controls.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="hs-accordion bg-white border border-default-100 rounded-2xl shadow-sm" id="hs-basic-heading-three">
+                        <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-basic-collapse-three">
+                            Can I control what agents are allowed to do?
+                            <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                <i class="iconify lucide--plus size-4"></i>
+                            </span>
+                            <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                <i class="iconify lucide--minus size-4"></i>
+                            </span>
+                        </button>
+                        <div id="hs-basic-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-three">
+                            <div class="pb-5 md:px-7.5 px-5">
+                                <p class="text-default-600 leading-relaxed text-lg font-normal">
+                                    Yes. You define permissions, approval steps, source boundaries, and escalation rules. Nothing runs without the controls you set.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="hs-accordion bg-white border border-default-100 rounded-2xl shadow-sm" id="hs-basic-heading-four">
+                        <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-basic-collapse-four">
+                            Do agents use my data for training?
+                            <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="M12 5v14" />
+                                </svg>
+                            </span>
+                            <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div id="hs-basic-collapse-four" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-four">
+                            <div class="pb-5 md:px-7.5 px-5">
+                                <p class="text-default-600 leading-relaxed text-lg font-normal">
+                                    No. Your data is not used to train models. You control retention policies and approved sources.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="hs-accordion bg-white border border-default-100 rounded-2xl shadow-sm" id="hs-basic-heading-five">
+                        <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-basic-collapse-five">
+                            What happens if an agent is unsure?
+                            <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="M12 5v14" />
+                                </svg>
+                            </span>
+                            <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div id="hs-basic-collapse-five" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-five">
+                            <div class="pb-5 md:px-7.5 px-5">
+                                <p class="text-default-600 leading-relaxed text-lg font-normal">
+                                    Agents ask clarifying questions or escalate to a human based on your rules. They don’t guess or act blindly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Link -->
+                <div class="text-center mt-8">
+                    <p class="text-default-600 text-lg">
+                        Still have questions?
+                        <a href="contact-us.html" class="text-purple-600 font-medium hover:text-purple-700 transition-colors inline-flex items-center gap-1">
+                            Contact support
+                            <svg class="size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section>
+            <div class="container relative">
+                <div class="relative overflow-clip rounded-2xl md:pt-32 pt-20 md:pb-40 pb-20 px-8 lg:py-37.5 lg:px-20 text-center bg-cover bg-center bg-no-repeat bg-[url('/images/features/cec.jpg')] mx-auto z-10">
+
+                    <div class="relative z-20">
+                        <div class="max-w-4xl mx-auto flex flex-col items-center">
+                            <div>
+                                <div class="mb-10">
+                                    <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold text-default-800 mb-6 tracking-tight leading-tight">Build your first agent today.</h2>
+                                    <p class="text-lg text-default-700 leading-relaxed font-medium">Pick a template, connect your tools and knowledge, and deploy with guardrails. Scale to more workflows once the first agent proves value.</p>
+                                </div>
+                                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 w-full max-w-[260px] sm:max-w-none mx-auto">
+                                    <a href="pricing.html" class="inline-block bg-[linear-gradient(90deg,#5923b3_0%,#b929c4_100%)] text-white px-8 py-3.5 rounded-xl font-semibold shadow-lg transition-opacity w-auto">
+                                        <div class="relative overflow-hidden h-6 w-full flex items-center justify-center group">
+                                            <div class="transition-transform duration-300 transform group-hover:-translate-y-full">Start free trial</div>
+                                            <div class="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Start free trial</div>
+                                        </div>
+                                    </a>
+                                    <a href="agents.html" class="inline-block bg-[#222222] text-white px-8 py-3.5 rounded-xl font-semibold shadow-lg transition-colors border border-white/10 w-auto">
+                                        <div class="relative overflow-hidden h-6 w-full flex items-center justify-center group">
+                                            <div class="transition-transform duration-300 transform group-hover:-translate-y-full">Browse templates</div>
+                                            <div class="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Browse templates</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Avatars & Decorations -->
+                    <img src="/images/avatar/avatar-23.jpg" loading="lazy" alt="Avatar Image" class="absolute top-6 inset-s-1/2 -translate-x-1/2 lg:top-14 lg:left-auto lg:right-90 lg:translate-x-0 size-10 lg:size-12.5 rounded-full shadow-lg z-10 block border border-purple-500">
+
+                    <img src="/images/avatar/avatar-26.jpg" loading="lazy" alt="Avatar Image" class="absolute top-24 inset-s-6 lg:top-20 lg:left-25 size-12 lg:size-20 rounded-full border border-amber-400 z-10 block">
+
+                    <div class="absolute bottom-16 inset-s-6 lg:bottom-32 lg:left-25 z-10 block group z-40">
+                        <img src="/images/avatar/avatar-21.jpg" loading="lazy" alt="Avatar Image" class="size-10 lg:size-12.5 rounded-full shadow-2xl relative z-10 border border-green-600">
+                        <img src="/images/icons/deco1.svg" class="absolute top-full inset-s-2 lg:left-4 w-20 lg:w-36 h-8.5 z-20">
+                    </div>
+
+                    <div class="absolute top-8 inset-e-6 lg:top-38 lg:right-24 z-10 block group">
+                        <img src="/images/avatar/avatar-24.jpg" loading="lazy" alt="Avatar Image" class="size-10 lg:size-17.5 rounded-full shadow-xl relative z-10">
+                        <img src="/images/icons/deco2.svg" class="absolute top-full inset-s-1 w-20 lg:w-28 h-8.5 z-20">
+                    </div>
+
+                    <img src="/images/avatar/avatar-25.jpg" loading="lazy" alt="Avatar Image" class="absolute bottom-6 inset-e-10 lg:bottom-24 lg:right-48 size-10 lg:size-15 rounded-full shadow-lg z-10 block">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    {{> footer }}
+
+</body>
+
+</html>

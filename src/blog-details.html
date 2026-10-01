@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Blog-details" }} {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative lg:pt-48 md:pt-45 pt-40 md:pb-25 pb-17.5 overflow-hidden bg-default-50/40">
+            <div class="container relative z-10 text-center">
+                <div class="flex items-center justify-center gap-4 mb-4">
+                    <div class="inline-flex items-center justify-center px-4 py-1 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium bg-white shadow-sm" data-i18n="blog.catSecurity">
+                        Security & governance
+
+                    </div>
+                    <div class="text-default-600">March 5, 2026</div>
+                </div>
+                <h1 class="text-[40px] md:text-6xl lg:text-7xl font-bold text-default-950 leading-[1.1] mb-4 tracking-tight max-w-4xl mx-auto">
+                    Why guardrails are essential for AI automation
+                </h1>
+                <p class="text-lg text-default-600 lg:max-w-md mx-auto leading-[1.6]">
+                    How guardrails prevent automation from going wrong at scale.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Blog Content Section -->
+        <section>
+            <div class="container">
+                <img src="/images/blog/blog-1.jpeg" alt="Blog Image" class="w-full lg:h-155 md:h-94 h-44 rounded-3xl object-cover lg:mb-25 md:mb-15 mb-7.5 shadow-[0_8px_30px_rgba(0,0,0,0.04)]">
+
+
+                <div class="md:w-2xl mx-auto">
+                    <h2 class="md:text-4xl text-3xl mb-2.5">Introduction</h2>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">Chatbots have changed how teams access information. AI agents go a step further by executing tasks. This shift introduces new opportunities—and new responsibilities.</p>
+
+                    <h3 class="text-2xl md:text-3xl mt-10 font-bold mb-2.5">Why execution changes everything</h3>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">Answering questions is low risk. Taking action is not. When agents execute workflows, mistakes can scale quickly without proper controls.</p>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">“Execution turns AI from a tool into a system.”</p>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">This is why agent design requires more than conversational intelligence.</p>
+
+                    <h3 class="text-2xl md:text-3xl mt-10 font-bold mb-2.5">What separates agents from chatbots</h3>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">Execution-ready agents are built differently:</p>
+                    <ul class="list list-disc list-inside text-lg text-default-600 font-normal mb-2.5">
+                        <li>They follow structured workflows</li>
+                        <li>They respect permissions and approvals</li>
+                        <li>They escalate uncertainty instead of guessing</li>
+                        <li>They operate inside existing tools</li>
+                    </ul>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">These differences make agents suitable for real work.</p>
+
+                    <h3 class="text-2xl md:text-3xl mt-10 font-bold mb-2.5">Designing agents that act responsibly</h3>
+                    <p class="text-lg mb-3.5 text-default-600 font-normal">Agents should assist teams, not replace judgment. By combining automation with human oversight, teams can benefit from speed without sacrificing control.</p>
+
+                    <figure>
+                        <div>
+                            <iframe src="https://www.youtube.com/embed/elgqxmdVms8?si=yYfzbunShGP15tde" title="interactions" scrolling="no" frameborder="0" allowfullscreen="true" class="md:h-94 h-48 w-full rounded-2xl"></iframe>
+                        </div>
+                    </figure>
+
+                    <h3 class="text-2xl md:text-3xl mt-10 font-bold mb-2.5">Conclusion</h3>
+                    <p class="text-lg mb-2.5 text-default-600 font-normal">The move from chatbots to agents is powerful, but only when execution is paired with responsibility. Well-designed agents help teams move faster with confidence.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Blogs Section -->
+        <section class="lg:pt-37.5 md:pt-25 pt-20">
+            <div class="container">
+                <div class="lg:mb-12 md:mb-10 mb-8 lg:text-center text-left mx-auto">
+                    <h2 class="text-3xl md:text-5xl font-bold text-default-950 tracking-tight" data-i18n="blog.otherBlogs">Other blogs</h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8  mx-auto">
+                    <!-- Card 1 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-default-200 transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-2.jpeg" alt="Blog Image" class="w-full h-full md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catScaling">
+                                    Scaling & operations
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl lg:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Scaling AI agents across teams without chaos
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-default-200 transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-3.jpeg" alt="Blog Image" class="w-full h-full md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catProduct">
+                                    Product & AI
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl lg:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Designing AI agents that teams can trust
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 3 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-default-200 transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-4.jpeg" alt="Blog Image" class="w-full h-full md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catDesign">
+                                    Product design
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl lg:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Building AI agents for real workflows not demos
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    {{> footer }}
+
+</body>
+
+</html>

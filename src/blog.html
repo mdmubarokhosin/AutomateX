@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Blog" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative lg:pt-48 md:pt-45 pt-40 md:pb-25 pb-17.5 overflow-hidden">
+            <div class="container relative z-10 text-center">
+                <div class="inline-flex items-center justify-center px-4 py-1 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-4 bg-white shadow-sm" data-i18n="blog.badge">
+                    Insights
+                </div>
+                <h1 class="text-[40px] md:text-6xl lg:text-7xl font-bold text-default-950 leading-[1.1] mb-4 tracking-tight max-w-4xl mx-auto" data-i18n-html="blog.title">
+                    Ideas, guides, and<br class="hidden md:block"> updates on AI agents
+                </h1>
+                <p class="text-lg text-default-600 max-w-[700px] mx-auto leading-[1.6]" data-i18n="blog.desc">
+                    Practical insights on building, controlling, and scaling AI agents for real workflows. Learn how teams use automation responsibly, with visibility and guardrails.
+                </p>
+            </div>
+        </section>
+
+        <!-- Blog Grid Section -->
+        <section>
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-7.5">
+
+                    <!-- Card 1 -->
+                    <a href="blog-details.html" class="group flex flex-col md:flex-row bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300 md:col-span-2">
+                        <div class="relative lg:h-94 md:h-80 h-65  md:w-1/2 overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-1.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="size-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                                    <i class="iconify tabler--star-filled size-5 text-amber-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col justify-start flex-grow md:w-1/2">
+                            <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium mb-5 self-start bg-white shadow-sm" data-i18n="blog.catSecurity">
+                                Security & governance
+                            </div>
+                            <h2 class="text-2xl lg:text-3xl font-bold text-default-950 mb-4 group-hover:text-purple-600 transition-colors leading-[1.15] tracking-tight">
+                                Why guardrails are essential for AI automation
+                            </h2>
+                            <p class="text-default-600 text-lg leading-relaxed">
+                                How guardrails prevent automation from going wrong at scale.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-2.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catScaling">
+                                    Scaling & operations
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl md:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Scaling AI agents across teams without chaos
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 3 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-3.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catProduct">
+                                    Product & AI
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl md:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Designing AI agents that teams can trust
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 4 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-4.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catDesign">
+                                    Product design
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl md:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Building AI agents for real workflows not demos
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 5 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-5.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catAnalytics">
+                                    Analytics
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl md:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Improving AI agents over time using real signals
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 6 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-6.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catEnterprise">
+                                    Enterprise AI
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl md:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                Visibility and audit trails are not optional
+                            </h2>
+                        </div>
+                    </a>
+
+                    <!-- Card 7 -->
+                    <a href="blog-details.html" class="group flex flex-col bg-white md:rounded-2xl rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.06)] transition-all duration-300">
+                        <div class="relative h-60 md:h-38 lg:h-65 w-full overflow-hidden shrink-0">
+                            <img src="/images/blog/blog-7.jpeg" alt="Blog Image" class="w-full h-full object-cover md:rounded-2xl rounded-xl">
+                            <div class="absolute md:top-6 md:left-6 top-3 inset-s-3">
+                                <div class="inline-flex items-center px-3.5 py-1 rounded-full border border-purple-500/30 text-default-800 text-[13px] font-medium bg-white shadow-sm" data-i18n="blog.catStrategy">
+                                    AI strategy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:p-7.5 md:p-5 p-3.75 flex flex-col flex-grow bg-white">
+                            <h2 class="text-xl md:text-2xl font-bold text-default-950 group-hover:text-primary-7 transition-colors leading-[1.25] tracking-tight">
+                                From chatbots to agents why execution matters
+                            </h2>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    {{> footer }}
+
+</body>
+
+</html>

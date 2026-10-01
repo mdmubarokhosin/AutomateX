@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc>/index.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+    <url><loc>/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>/features.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>/agents.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>/pricing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+    <url><loc>/blog-details.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+    <url><loc>/faqs.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>/contact-us.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>/request-demo.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+    <url><loc>/waitlist.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>/terms-conditions.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

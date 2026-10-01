@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Request a Demo" }} 
+    
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="relative lg:pt-48 md:pt-45 pt-40 overflow-hidden">
+            <div class="container">
+                <div class="text-center md:mb-25 mb-17.5">
+                    <div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-6 bg-white shadow-sm" data-i18n="demo.badge">
+                        Request a demo
+                    </div>
+                    <h1 class="text-[40px] md:text-6xl lg:text-7xl font-bold text-default-950 leading-[1.1] mb-6 tracking-tight max-w-4xl mx-auto" data-i18n="demo.title">
+                        Book a live demo of reliable AI agents
+                    </h1>
+                    <p class="text-lg md:text-xl text-default-600 max-w-xl mx-auto leading-[1.6]" data-i18n="demo.desc">
+                        See how Automatex can streamline your workflows. Fill out the form and our team will be in touch shortly.
+                    </p>
+                </div>
+
+                <!-- Form Card -->
+                <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-default-100 md:p-7.5 p-3.75 lg:max-w-2xl mx-auto">
+                    <form>
+                        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-7.5 gap-5">
+                            <!-- Full Name -->
+                            <div>
+                                <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.fullName">Full name*</label>
+                                <input type="text" placeholder="Enter your full name" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+                            
+                            <!-- Email -->
+                            <div>
+                                <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.email">Email address*</label>
+                                <input type="email" placeholder="hello@yourbrand.com" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+                            
+                            <!-- Company Name -->
+                            <div>
+                                <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.company">Company name*</label>
+                                <input type="text" placeholder="Enter your company name" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+                            
+                            <!-- Team Size -->
+                            <div>
+                                <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.teamSize">Team size*</label>
+                                <input type="text" placeholder="e.g. 5-10" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+
+                            <!-- Job title -->
+                            <div>
+                                <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.jobTitle">Job title</label>
+                                <input type="text" placeholder="Your role or title" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+
+                            <!-- Current tools -->
+                            <div>
+                                <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.currentTools">Current tools</label>
+                                <input type="text" placeholder="Tools you currently use" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+                        </div>
+
+                        <!-- Phone number -->
+                        <div class="mb-6">
+                            <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.phone">Phone number</label>
+                            <input type="tel" placeholder="Your contact number" class="w-full bg-default-50 border border-default-200 rounded-xl px-4 py-3.5 text-base text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="mb-6">
+                            <label class="block text-default-900 text-base font-medium mb-2.5" data-i18n="demo.message">Message</label>
+                            <textarea rows="4" placeholder="Write your message here..." class="w-full bg-[#fcfcfc] border border-default-200 rounded-xl px-4 py-3.5 text-[14.5px] text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all resize-y placeholder:text-default-400"></textarea>
+                        </div>
+                        
+                        <!-- Checkbox -->
+                        <div class="mb-8 flex items-start gap-3">
+                            <div class="flex items-center h-5 mt-0.5">
+                                <input id="consent-checkbox" type="checkbox" class="size-4 border-default-300 rounded text-purple-600 focus:ring-purple-500 cursor-pointer">
+                            </div>
+                            <label for="consent-checkbox" class="text-default-600 text-[13.5px] cursor-pointer select-none" data-i18n="demo.consent">
+                                I consent to receive newsletters and updates.
+                            </label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div>
+                            <button type="submit" class="bg-[#1f1e24] text-white px-8 py-3.5 rounded-[10px] font-medium text-[15px] hover:bg-black transition-colors shadow-sm" data-i18n="demo.submit">
+                                Request demo
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    {{> footer }}
+
+</body>
+
+</html>

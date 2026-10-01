@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="404 Error" }} {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+        <!-- 404 Section -->
+        <section class="relative lg:pt-48 md:pt-45 pt-40 overflow-hidden bg-default-50/40 flex items-center justify-center">
+
+            <img src="/images/hero/hero-bg.svg" alt="Hero Background" class="w-full md:h-150 h-67.5 absolute top-0">
+
+            <div class="container relative z-10">
+                <div class="text-center flex flex-col items-center justify-center">
+
+                    <div class="inline-flex items-center justify-center px-5 py-1.5 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-2 bg-white shadow-sm" data-i18n="404.badge">
+                        Something went wrong
+                    </div>
+
+                    <h1 class="text-7xl md:text-[200px] lg:text-[300px] font-bold leading-none tracking-tight text-transparent bg-clip-text bg-linear-to-r from-indigo-800 via-purple-600 to-fuchsia-500 mb-4 select-none drop-shadow-sm">
+                        404
+                    </h1>
+
+                    <h2 class="text-2xl md:text-3xl font-bold text-default-950 mb-2.5 tracking-tight" data-i18n="404.title">
+                        Page not found
+                    </h2>
+
+                    <p class="text-lg md:text-xl text-default-600 mx-auto mb-5" data-i18n="404.desc">
+                        The page you are looking for doesn't exist or has been moved
+                    </p>
+
+                    <a href="index.html" class="group relative inline-flex items-center justify-center bg-[#1f1e24] text-white px-8 py-3.5 rounded-xl font-medium text-[15px] hover:bg-black transition-colors shadow-lg overflow-hidden">
+                        <span class="relative overflow-hidden flex items-center justify-center h-5">
+                            <span class="block transition-transform duration-300 ease-out group-hover:-translate-y-full" data-i18n="404.backHome">Back to home</span>
+                            <span class="absolute inset-0 block transition-transform duration-300 ease-out translate-y-full group-hover:translate-y-0" data-i18n="404.backHome">Back to home</span>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    {{> footer }}
+
+</body>
+
+</html>

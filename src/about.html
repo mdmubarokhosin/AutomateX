@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="About" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+
+        <section class="md:pt-47.5 pt-40 lg:pb-20 md:px-6 text-center">
+            <div class="container mx-auto">
+
+                <!-- Badge -->
+                <div class="inline-flex items-center justify-center p-[1px] rounded-full bg-[linear-gradient(90deg,var(--color-primary-2),var(--color-primary-7)_30%,var(--color-primary-3)_60%,var(--color-primary-1))] mb-4">
+                    <div class="bg-white rounded-full px-4 py-1 text-sm text-default-800 font-medium" data-i18n="about.badge">
+                        About the platform
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h1 class="text-4xl md:text-[64px] lg:text-7xl font-bold text-default-800 leading-[1.1] md:mb-6 mb-4 md:max-w-[800px] mx-auto tracking-normal" data-i18n-html="about.title">
+                    Built for reliable AI<br class="hidden md:block"> agents at scale
+                </h1>
+
+                <!-- Description -->
+                <p class="text-lg md:text-xl text-default-600 lg:max-w-190 mx-auto leading-[1.3] mb-12.5 font-normal" data-i18n="about.desc">
+                    AI agents are moving from experiments into real business workflows. But without<br class="hidden md:block"> structure, visibility, and control, automation creates more risk than value.
+                </p>
+
+                <!-- Hero Image -->
+                <div class="relative w-full mx-auto rounded-2xl overflow-hidden">
+                    <img src="/images/about/about.png" alt="About Image" class="w-full h-auto object-cover rounded-2xl">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Investors Section -->
+        <section class="md:py-24 py-20 md:px-6 text-center overflow-hidden">
+            <div class="container mx-auto">
+                <!-- Badge -->
+                <div class="inline-flex items-center justify-center p-[1px] rounded-full bg-[linear-gradient(90deg,var(--color-primary-2),var(--color-primary-7)_30%,var(--color-primary-3)_60%,var(--color-primary-1))] lg:mb-6 mb-4">
+                    <div class="bg-white rounded-full px-4 py-1 text-sm text-default-800 font-medium" data-i18n="about.investorsBadge">
+                        Our investors
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold text-default-950 mb-12.5 tracking-tight max-w-2xl mx-auto" data-i18n-html="about.investorsTitle">
+                    Backed by industry-<br class="hidden md:block">leading investors
+                </h2>
+
+                <!-- Ticker -->
+                <div class="relative w-full overflow-hidden max-w-[1400px] mx-auto pb-4">
+                    <!-- Fades -->
+                    <div class="absolute inset-s-0 top-0 bottom-0 w-32 bg-linear-to-r from-body-bg to-transparent z-10 pointer-events-none"></div>
+                    <div class="absolute inset-e-0 top-0 bottom-0 w-32 bg-linear-to-l from-body-bg to-transparent z-10 pointer-events-none"></div>
+
+                    <!-- Marquee Container -->
+                    <div class="flex gap-5 animate-marquee whitespace-nowrap" style="width: max-content;">
+                        <!-- List 1 -->
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-01.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-06.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-09.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-07.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-12.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-04.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-03.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-04.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-12.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-08.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+
+                        <!-- List 2 (Duplicate for loop) -->
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-01.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-06.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-09.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-07.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-12.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-04.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-03.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-04.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-12.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                        <div class="inline-flex items-center justify-center bg-white rounded-full px-5 py-4 shadow-[0_4px_24px_rgba(0,0,0,0.04)] shrink-0">
+                            <img src="/images/client/cl-08.svg" class="h-6 w-auto" alt="Investor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="lg:pb-37.5 md:pb-25 pb-20 lg:px-9.5 px-5">
+            <div class="bg-black relative rounded-2xl overflow-hidden lg:py-37.5 md:py-25 py-20 shadow-2xl">
+                <div class="container">
+
+                    <!-- Background Patterns -->
+                    <div class="absolute inset-0 pointer-events-none">
+                        <img src="/images/features/vector-11.png" alt="BG Bottom" class="absolute bottom-0 inset-s-0 h-full bg-cover">
+                        <img src="/images/features/vector-12.png" alt="BG Top" class="absolute top-0 inset-e-0 w-full h-full bg-cover">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="relative z-10">
+                        <!-- Main Header -->
+                        <h2 class="text-xl md:text-3xl font-medium text-white leading-[1.3] md:mb-12.5 mb-8 tracking-tight">
+                            At Automatex, we build reliable AI agents that help teams automate real work with confidence. Our goal is to help organizations streamline workflows, reduce operational friction, and scale automation while maintaining control, visibility, and accountability across every process.
+                        </h2>
+
+                        <!-- Grid -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                            <!-- Mission Card -->
+                            <div class="bg-transparent border border-default-700 rounded-2xl md:p-7.5 p-5 backdrop-blur-sm">
+                                <div class="md:size-15 size-12.5  bg-[#ffffff10] rounded-xl flex items-center justify-center mb-7.5 border border-white/5">
+                                    <i class="iconify tabler--target size-7 text-white"></i>
+                                </div>
+                                <h3 class="text-2xl md:text-3xl font-bold text-white mb-6" data-i18n="about.missionTitle">Our mission</h3>
+                                <p class="md:text-lg text-base text-white leading-[1.6] mb-6 font-medium" data-i18n="about.missionDesc1">
+                                    To help teams deploy AI agents that automate real work without sacrificing control, visibility, or accountability.
+                                </p>
+                                <p class="md:text-lg text-base text-white leading-[1.6] font-medium" data-i18n="about.missionDesc2">
+                                    We believe automation should reduce operational burden while strengthening trust across teams. Our mission is to make AI agents reliable enough to be used confidently in everyday workflows.
+                                </p>
+                            </div>
+
+                            <!-- Vision Card -->
+                            <div class="bg-transparent border border-default-700 rounded-2xl md:p-7.5 p-5 backdrop-blur-sm">
+                                <div class="md:size-15 size-12.5  bg-[#ffffff10] rounded-xl flex items-center justify-center mb-7.5 border border-white/5">
+                                    <i class="iconify tabler--eye size-7 text-white"></i>
+                                </div>
+                                <h3 class="text-2xl md:text-3xl font-bold text-white mb-6" data-i18n="about.visionTitle">Our vision</h3>
+                                <p class="md:text-lg text-base text-white leading-[1.6] mb-8 font-medium" data-i18n="about.visionDesc">
+                                    A future where AI agents are trusted collaborators in every organization.
+                                </p>
+
+                                <div class="flex flex-col gap-3">
+                                    <div class="flex items-start gap-3">
+                                        <div class="size-5 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 border border-white/5">
+                                            <i class="iconify tabler--check text-white size-3.5"></i>
+                                        </div>
+                                        <span class="text-sm text-default-400 font-medium" data-i18n="about.visionItem1">Operate within defined rules and permissions</span>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="size-5 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 border border-white/5">
+                                            <i class="iconify tabler--check text-white size-3.5"></i>
+                                        </div>
+                                        <span class="text-sm text-default-400 font-medium" data-i18n="about.visionItem2">Escalate uncertainty instead of guessing</span>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="size-5 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 border border-white/5">
+                                            <i class="iconify tabler--check text-white size-3.5"></i>
+                                        </div>
+                                        <span class="text-sm text-default-400 font-medium" data-i18n="about.visionItem3">Provide full visibility into actions and decisions</span>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="size-5 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 border border-white/5">
+                                            <i class="iconify tabler--check text-white size-3.5"></i>
+                                        </div>
+                                        <span class="text-sm text-default-400 font-medium" data-i18n="about.visionItem4">Improve through real usage signals</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Approach Section -->
+        <section class="">
+            <div class="container mx-auto max-w-[1250px]">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">
+
+                    <!-- Left Content -->
+                    <div>
+                        <!-- Badge -->
+                        <div class="inline-flex items-center justify-center p-[1px] rounded-full bg-[linear-gradient(90deg,var(--color-primary-2),var(--color-primary-7)_30%,var(--color-primary-3)_60%,var(--color-primary-1))] mb-4">
+                            <div class="bg-white rounded-full px-4 py-1.5 text-sm text-default-800 font-medium" data-i18n="about.approachBadge">
+                                AI with purpose
+                            </div>
+                        </div>
+
+                        <!-- Title & Description -->
+                        <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold text-default-950 leading-[1.1] mb-4 tracking-tight" data-i18n="about.approachTitle">
+                            Our approach to AI
+                        </h2>
+                        <p class="text-lg text-[#4b5563] leading-[1.6]" data-i18n="about.approachDesc">
+                            We believe AI should support teams, not replace judgment.
+                        </p>
+
+                        <!-- Checklist -->
+                        <div class="lg:mt-12 mt-7.5">
+                            <h3 class="text-lg md:text-xl font-bold text-default-950 mb-4" data-i18n="about.approachSubtitle">
+                                Agents on this platform are designed to:
+                            </h3>
+                            <div class="flex flex-col gap-2.5">
+                                <div class="flex lg:items-center items-start gap-2.5">
+                                    <i class="iconify tabler--check size-4 text-primary-1 lg:mt-0 mt-1"></i>
+                                    <span class="text-base text-default-600 font-medium">Operate within defined rules and permissions</span>
+                                </div>
+                                <div class="flex lg:items-center items-start gap-2.5">
+                                    <i class="iconify tabler--check size-4 text-primary-1 lg:mt-0 mt-1"></i>
+                                    <span class="text-base text-default-600 font-medium">Escalate uncertainty instead of guessing</span>
+                                </div>
+                                <div class="flex lg:items-center items-start gap-2.5">
+                                    <i class="iconify tabler--check size-4 text-primary-1 lg:mt-0 mt-1"></i>
+                                    <span class="text-base text-default-600 font-medium">Provide full visibility into actions and decisions</span>
+                                </div>
+                                <div class="flex lg:items-center items-start gap-2.5">
+                                    <i class="iconify tabler--check size-4 text-primary-1 lg:mt-0 mt-1"></i>
+                                    <span class="text-base text-default-600 font-medium">Improve through real usage signals</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="mt-7.5">
+                            <a href="request-demo.html" class="group relative inline-flex items-center justify-center overflow-hidden bg-linear-to-b from-[#333333] to-[#111111] hover:from-[#444444] hover:to-[#222222] border border-[#404040] text-white text-[15px] font-medium px-8 py-4 rounded-[14px] transition-all shadow-[0_12px_24px_-8px_rgba(0,0,0,0.6)]">
+                                <span class="relative block overflow-hidden h-[1.2em]">
+                                    <span class="block transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-full" data-i18n="about.requestDemo">Request a demo</span>
+                                    <span class="absolute inset-0 block translate-y-full transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-0" data-i18n="about.requestDemo">Request a demo</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Image -->
+                    <div class="relative w-full rounded-2xl overflow-hidden">
+                        <img src="/images/about/about-image.jpg" alt="About Image" class="w-full lg:h-auto md:h-125 object-cover rounded-2xl">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="lg:pt-37.5 md:pt-25 pt-20">
+            <div class="container">
+                <div class="relative bg-black rounded-2xl overflow-hidden md:p-12.5 p-7.5 shadow-xl">
+
+                    <!-- Background Image -->
+                    <div class="absolute inset-0 pointer-events-none">
+                        <img src="/images/features/bg-image-07.jpg" alt="BG Gradient" class="absolute inset-0 w-full h-full object-cover">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-7.5 md:gap-8 lg:gap-16 text-center md:divide-x divide-white/10">
+
+                        <!-- Stat 1 -->
+                        <div class="flex flex-col items-center justify-center first:pt-0">
+                            <div class="flex items-center justify-center text-white text-3xl md:text-[40px] lg:text-5xl font-bold mb-3 tracking-tight leading-none">
+                                <span class="count" data-target="20">20</span>
+                                <span>+</span>
+                            </div>
+                            <div class="text-base md:text-lg text-default-400 font-medium" data-i18n="about.stat1Label">Common workflows automated</div>
+                        </div>
+
+                        <!-- Stat 2 -->
+                        <div class="flex flex-col items-center justify-center">
+                            <div class="flex items-center justify-center text-white text-3xl md:text-[40px] lg:text-5xl font-bold mb-3 tracking-tight leading-none">
+                                <span class="count" data-target="5000">5,000</span>
+                                <span>+</span>
+                            </div>
+                            <div class="text-base md:text-lg text-default-400 font-medium" data-i18n="about.stat2Label">Users rely on agents every day</div>
+                        </div>
+
+                        <!-- Stat 3 -->
+                        <div class="flex flex-col items-center justify-center">
+                            <div class="flex items-center justify-center text-white text-3xl md:text-[40px] lg:text-5xl font-bold mb-3 tracking-tight leading-none">
+                                <span class="count" data-target="10">10</span>
+                                <span>x</span>
+                            </div>
+                            <div class="text-base md:text-lg text-default-400 font-medium" data-i18n="about.stat3Label">Faster handling of repeat requests</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    {{> footer }}
+
+</body>
+
+</html>

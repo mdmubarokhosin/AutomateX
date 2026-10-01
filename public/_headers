@@ -1,0 +1,21 @@
+# নিরাপত্তা ও ক্যাশ হেডার (Cloudflare Pages)
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  X-XSS-Protection: 1; mode=block
+
+# স্ট্যাটিক অ্যাসেট দীর্ঘমেয়াদী ক্যাশ
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/videos/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML ফাইল সর্বদা রিভ্যালিডেট করুন
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

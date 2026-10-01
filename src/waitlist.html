@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Waitlist" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative lg:pt-48 md:pt-45 pt-40 overflow-hidden bg-default-50/40">
+            <div class="container">
+                <div class="text-center md:mb-12.5 mb-8">
+                    <div class="inline-flex items-center justify-center px-4 py-1 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-4 bg-white shadow-sm" data-i18n="waitlist.badge">
+                        Coming soon
+                    </div>
+                    <h1 class="text-[40px] md:text-6xl lg:text-7xl font-bold text-default-950 leading-[1.1] mb-4 tracking-tight max-w-4xl mx-auto" data-i18n="waitlist.title">
+                        Early access to the AI agent platform
+                    </h1>
+                    <p class="text-lg md:text-xl text-default-600 max-w-xl mx-auto leading-[1.6]" data-i18n="waitlist.desc">
+                        Join the waitlist to be among the first to build and run AI agents for real workflows with control, visibility, and guardrails built in.
+                    </p>
+
+                </div>
+
+                <div class="bg-white rounded-3xl shadow-[0_8px_30px_rgba(0,0,0,0.06)] border border-default-100 overflow-hidden flex flex-col md:flex-row lg:w-5xl mx-auto">
+
+                    <!-- Left Form -->
+                    <div class="md:w-1/2 lg:p-12.5 md:p-10 p-3.75 flex flex-col justify-start">
+                        <form>
+                            <!-- Email -->
+                            <div class="mb-6">
+                                <label class="block text-default-950 text-[15px] font-medium mb-3" data-i18n="waitlist.emailLabel">Your email*</label>
+                                <input type="email" placeholder="hello@yourbrand.com" class="w-full bg-[#fafafa] border border-default-200 rounded-xl px-4 py-3.5 text-[15px] text-default-900 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all placeholder:text-default-400">
+                            </div>
+
+                            <!-- Submit Row -->
+                            <div>
+                                <button type="submit" class="bg-[#1f1e24] text-white px-7 py-3 rounded-[10px] font-medium text-[15px] hover:bg-black transition-colors shadow-[0_4px_12px_rgba(0,0,0,0.1)] mb-4" data-i18n="waitlist.join">
+                                    Join the waitlist
+                                </button>
+                                <p class="text-default-500 text-[13.5px]" data-i18n="waitlist.note">
+                                    We’ll notify you when access opens. No spam.
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px bg-default-200 my-12"></div>
+                    <div class="block md:hidden h-px bg-default-200  mx-3"></div>
+
+                    <!-- Right Benefits -->
+                    <div class="md:w-1/2 lg:p-12.5 md:p-10 p-3.75 flex flex-col justify-center">
+                        <h3 class="text-default-950 text-xl font-bold mb-5 tracking-tight" data-i18n="waitlist.benefitsTitle">What you’ll get</h3>
+                        <ul class="space-y-2.5">
+                            <li class="flex items-start gap-3">
+                                <i class="iconify lucide--check text-primary-7 size-base shrink-0 mt-1"></i>
+                                <span class="text-default-600 md:text-base text-sm" data-i18n="waitlist.benefit1">Access to prebuilt agent templates</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="iconify lucide--check text-primary-7 size-base shrink-0 mt-1"></i>
+                                <span class="text-default-600 md:text-base text-sm" data-i18n="waitlist.benefit2">Workflow automation with approvals</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="iconify lucide--check text-primary-7 size-base shrink-0 mt-1"></i>
+                                <span class="text-default-600 md:text-base text-sm" data-i18n="waitlist.benefit3">Full visibility and audit trails</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="iconify lucide--check text-primary-7 size-base shrink-0 mt-1"></i>
+                                <span class="text-default-600 md:text-base text-sm" data-i18n="waitlist.benefit4">Analytics to improve agents over time</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    {{> footer }}
+
+</body>
+
+</html>

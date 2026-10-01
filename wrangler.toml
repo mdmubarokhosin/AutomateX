@@ -1,0 +1,16 @@
+# Cloudflare Pages কনফিগারেশন — AutomateX
+# স্ট্যাটিক সাইট (Vite + Handlebars + Tailwind CSS 4)
+#
+# গুরুত্বপূর্ণ: Cloudflare Pages এর wrangler.toml কনফিগারেশন [build] সেকশন সাপোর্ট করে না।
+# বিল্ড কমান্ড Cloudflare Pages ড্যাশবোর্ডে কনফিগার করতে হবে:
+#   - Build command: bash cf-build.sh
+#   - Build output directory: dist
+#   - Environment variables: NODE_VERSION=22
+
+name = "automatex"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "dist"
+
+# পরিবেশ ভেরিয়েবল (প্রয়োজনে যোগ করুন)
+# [vars]
+# SITE_NAME = "Automatex"

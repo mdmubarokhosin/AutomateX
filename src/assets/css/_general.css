@@ -1,0 +1,174 @@
+/* _general.css */
+
+@layer base {
+  html {
+    @apply w-full scroll-smooth overflow-x-clip;
+  }
+
+  body {
+    @apply bg-body-bg font-body text-base leading-[1.3em] font-medium overflow-x-clip;
+    font-family: "Noto Serif Bangla", serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading leading-[1.3] font-semibold text-default-900;
+    font-family: "Noto Serif Bangla", serif;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+select,
+input,
+textarea {
+  @apply transition-all duration-200 focus:ring-0 focus:outline-0;
+}
+
+.container-small {
+  @apply lg:px-7.5 md:px-5 px-3.75 lg:max-w-215 mx-auto;
+}
+
+.container {
+  @apply mx-auto max-w-315 lg:px-7.5 md:px-5 px-3.75;
+}
+
+/* Sticky Navbar */
+.nav-sticky.nav-sticky-on {
+  @apply lg:py-3! py-2!;
+}
+
+/* CSS Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 80s linear infinite;
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 80s linear infinite;
+}
+/* Nav Link Styling */
+.nav-link {
+  @apply text-default-600 transition-all font-medium;
+  padding-left: 12px;
+}
+
+.nav-link:hover, .nav-link.active, .nav-link.w--current {
+  color: var(--color-primary-7);
+  background-image: radial-gradient(circle, var(--color-primary-7) 100%, transparent 100%);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+}
+
+/* ===== ভাষা সুইচার (Language Switcher) ===== */
+.lang-switcher {
+  position: relative;
+}
+
+.lang-switcher-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-default-700);
+  background: transparent;
+  border: 1px solid var(--color-default-200);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.lang-switcher-btn:hover {
+  border-color: var(--color-primary-7);
+  color: var(--color-primary-7);
+}
+
+.lang-switcher-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  inset-inline-end: 0;
+  min-width: 9rem;
+  background: #fff;
+  border: 1px solid var(--color-default-200);
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  padding: 0.4rem;
+  z-index: 80;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+  transition: all 0.2s ease;
+}
+
+.lang-switcher.open .lang-switcher-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-default-700);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  text-align: start;
+}
+
+.lang-option:hover {
+  background: var(--color-default-50);
+}
+
+.lang-option.active {
+  background: var(--color-primary-7);
+  color: #fff;
+}
+
+/* বাংলা ভাষায় টাইপোগ্রাফি টিউনিং */
+html[lang="bn"] body {
+  letter-spacing: 0;
+  word-spacing: 0.01em;
+}
+
+html[lang="bn"] h1,
+html[lang="bn"] h2,
+html[lang="bn"] h3 {
+  letter-spacing: -0.01em;
+}
+
+/* ফ্ল্যাশ লুকানো (i18n লোডের আগে) */
+[data-i18n]:not(.i18n-ready) {
+  /* কনটেন্ট রাখা হবে, শুধু ফ্লিকার এড়াতে */
+}
+
+/* কনটেন্ট লোড হওয়ার আগে স্কেলিটন স্টাইল (ঐচ্ছিক) */
+.i18n-loading [data-i18n] {
+  visibility: hidden;
+}

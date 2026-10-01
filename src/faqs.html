@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Faqs" }} {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative lg:pt-48 md:pt-45 pt-40 overflow-hidden bg-default-50/40">
+            <div class="container">
+                <div class="text-center md:mb-25 mb-17.5">
+                    <div class="inline-flex items-center justify-center px-4 py-1 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-4 bg-white shadow-sm" data-i18n="faq.badge">
+                        Need help?
+                    </div>
+                    <h1 class="text-[40px] md:text-6xl lg:text-7xl font-bold text-default-950 leading-[1.3] mb-4 tracking-tight max-w-4xl mx-auto" data-i18n="faq.title">
+                        Frequently asked questions
+                    </h1>
+
+                </div>
+
+                <div class="lg:w-2xl mx-auto">
+                    <!-- Category: General -->
+                    <div class="mb-15">
+                        <!-- Category Header -->
+                        <div class="flex items-center gap-4 mb-7.5">
+                            <div class="md:size-11 size-7.5 bg-black md:rounded-xl rounded-lg flex items-center justify-center shadow-sm">
+                                <i class="iconify lucide--sliders-horizontal text-white size-5"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-default-900 tracking-tight" data-i18n="faq.general">General</h2>
+                        </div>
+
+                        <div class="hs-accordion-group space-y-5">
+                            <!-- FAQ Item 1 -->
+                            <div class="hs-accordion active bg-white rounded-2xl shadow-lg" id="hs-general-heading-one">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-general-collapse-one">
+                                    What is this platform?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-general-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-general-heading-one">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            It’s a platform for building and running AI agents that handle real workflows like project updates, support requests, onboarding, and approvals—while staying under your control.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-general-heading-two">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-general-collapse-two">
+                                    What is an AI agent?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-general-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-general-heading-two">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            An AI agent is a task-focused assistant that can read context, follow rules, and take actions such as drafting responses, routing requests, or creating updates.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-general-heading-three">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-general-collapse-three">
+                                    How is this different from a chatbot?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-general-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-general-heading-three">
+                                    <div class="pb-5 md:px-7.5 px-5 space-y-4">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Chatbots reply to messages.
+                                        </p>
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Agents understand workflows, use context, follow guardrails, and can take actions with approvals when required.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category: Agents & templates -->
+                    <div class="mb-15">
+                        <!-- Category Header -->
+                        <div class="flex items-center gap-4 mb-7.5">
+                            <div class="md:size-11 size-7.5 bg-black md:rounded-xl rounded-lg flex items-center justify-center shadow-sm">
+                                <i class="iconify lucide--bot text-white size-5"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-default-900 tracking-tight">Agents & templates</h2>
+                        </div>
+
+                        <div class="hs-accordion-group space-y-5">
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-agents-heading-one">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-agents-collapse-one">
+                                    Can I start with templates?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-agents-collapse-one" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-agents-heading-one">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You can choose from ready-to-use agent templates for roles like project management, support, HR, and sales, then customize them.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-agents-heading-two">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-agents-collapse-two">
+                                    Can I create an agent from scratch?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-agents-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-agents-heading-two">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You can start from a blank agent and fully define its rules, permissions, and behavior.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-agents-heading-three">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-agents-collapse-three">
+                                    Can I control what agents are allowed to do?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-agents-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-agents-heading-three">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You define permissions, approval steps, source boundaries, and escalation rules. Nothing runs without the controls you set.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-agents-heading-four">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-agents-collapse-four">
+                                    Can I customize agent behavior later?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-agents-collapse-four" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-agents-heading-four">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You can update instructions, change integrations, or modify approval rules at any time without rebuilding.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Category: Pricing & access -->
+                    <div class="mb-15">
+                        <!-- Category Header -->
+                        <div class="flex items-center gap-4 mb-7.5">
+                            <div class="md:size-11 size-7.5 bg-black md:rounded-xl rounded-lg flex items-center justify-center shadow-sm">
+                                <i class="iconify lucide--credit-card text-white size-5"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-default-900 tracking-tight">Pricing & access</h2>
+                        </div>
+
+                        <div class="hs-accordion-group space-y-5">
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-pricing-heading-one">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-pricing-collapse-one">
+                                    Is there a free plan?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-pricing-collapse-one" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-pricing-heading-one">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You can start for free and upgrade as your needs grow.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-pricing-heading-two">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-pricing-collapse-two">
+                                    Can I change plans later?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-pricing-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-pricing-heading-two">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You can upgrade, downgrade, or cancel your plan at any time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-pricing-heading-three">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-pricing-collapse-three">
+                                    Is pricing monthly or yearly?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-pricing-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-pricing-heading-three">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Plans are billed monthly, with optional yearly discounts.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-pricing-heading-four">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-pricing-collapse-four">
+                                    Are there limits on agents or usage?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-pricing-collapse-four" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-pricing-heading-four">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. Each plan includes limits on the number of agents and usage. Higher plans offer more agents, advanced analytics, and team controls.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category: Support & help -->
+                    <div class="mb-15">
+                        <!-- Category Header -->
+                        <div class="flex items-center gap-4 mb-7.5">
+                            <div class="md:size-11 size-7.5 bg-black md:rounded-xl rounded-lg flex items-center justify-center shadow-sm">
+                                <i class="iconify lucide--help-circle text-white size-5"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-default-900 tracking-tight">Support & help</h2>
+                        </div>
+
+                        <div class="hs-accordion-group space-y-5">
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-support-heading-one">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-support-collapse-one">
+                                    Do you offer support?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-support-collapse-one" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-support-heading-one">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. Support is available through email and documentation, with priority support on higher plans.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hs-accordion bg-white rounded-2xl shadow-lg" id="hs-support-heading-two">
+                                <button class="hs-accordion-toggle inline-flex items-center justify-between w-full font-bold text-start text-default-900 py-5 md:px-7.5 px-5 hover:text-default-600 disabled:opacity-50 disabled:pointer-events-none text-lg" aria-controls="hs-support-collapse-two">
+                                    Can I request a demo?
+                                    <span class="hs-accordion-active:hidden shrink-0 bg-default-100 rounded-full size-8 flex justify-center items-center text-default-600 transition-colors">
+                                        <i class="iconify lucide--plus size-4"></i>
+                                    </span>
+                                    <span class="hs-accordion-active:flex hidden shrink-0 bg-black rounded-full size-8 justify-center items-center text-white transition-colors">
+                                        <i class="iconify lucide--minus size-4"></i>
+                                    </span>
+                                </button>
+                                <div id="hs-support-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-support-heading-two">
+                                    <div class="pb-5 md:px-7.5 px-5">
+                                        <p class="text-default-600 leading-relaxed md:text-lg text-base font-normal">
+                                            Yes. You can request a live demo tailored to your workflows.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact CTA -->
+                    <div class="flex flex-row md:gap-3 gap-1 items-center justify-center">
+                        <p class="text-default-600 text-lg">Still have questions?</p>
+                        <a href="contact-us.html" class="inline-flex items-center justify-center gap-2 font-medium text-lg text-primary-7 hover:shadow-sm transition-all">
+                            Contact support
+                            <i class="iconify lucide--arrow-right size-4 text-default-500"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    {{> footer }}
+
+</body>
+
+</html>

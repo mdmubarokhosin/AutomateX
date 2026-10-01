@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Features" }} {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="relative md:pt-48 pt-38 lg:pb-32 md:pb-25 pb-17.5 overflow-hidden">
+            <!-- Background Vector -->
+            <img src="/images/features/05.svg" loading="lazy" alt="BG Image" class="absolute top-0 inset-e-0 -z-10 object-cover opacity-80 pointer-events-none">
+
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-7.5 items-center">
+
+                    <!-- Left Side -->
+                    <div class="flex flex-col items-start lg:col-span-7 col-span-6">
+                        <!-- Badge -->
+                        <div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-2.5 bg-white/50 backdrop-blur-sm" data-i18n="features.badge">
+                            Platform capabilities
+                        </div>
+
+                        <!-- Title -->
+                        <h1 class="text-[40px] md:text-6xl lg:text-7xl font-bold text-default-950 leading-[1.1] mb-5 tracking-tight" data-i18n="features.title">
+                            Everything you need for reliable agents
+                        </h1>
+
+                        <!-- Description -->
+                        <p class="text-lg md:text-xl text-default-600 md:leading-[1.6] leading-[1.3] md:mb-7.5 mb-5" data-i18n="features.desc">
+                            Design, deploy, and manage AI agents that don’t just respond, but take real action. Built with guardrails, visibility, and control so teams can automate work with confidence
+                        </p>
+
+                        <!-- Buttons -->
+                        <div class="flex lg:flex-row flex-col items-start gap-4">
+                            <!-- Button 1 -->
+                            <a href="pricing.html" class="group relative inline-flex items-center justify-center px-8 py-4 font-semibold text-white transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] transform rounded-[14px] hover:-translate-y-1 active:translate-y-0 shadow-[0_10px_30px_-10px_rgba(168,85,247,0.5)] hover:shadow-[0_20px_40px_-10px_rgba(168,85,247,0.7)] overflow-hidden">
+                                <div class="absolute inset-0 bg-[linear-gradient(260deg,var(--color-primary-2),var(--color-primary-7)_30%,var(--color-primary-3)_60%,var(--color-primary-1))] transition-transform duration-500 group-hover:scale-110"></div>
+                                <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-sm"></div>
+                                <div class="absolute inset-0 rounded-[14px] ring-1 ring-inset ring-white/20"></div>
+                                <span class="relative flex items-center gap-2">
+                                    <span class="relative block overflow-hidden h-6">
+                                        <span class="block transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-full text-lg">Start for free</span>
+                                        <span class="absolute inset-0 block translate-y-full transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-0 text-white text-lg font-bold drop-shadow-md">Start for free</span>
+                                    </span>
+                                </span>
+                            </a>
+                            <!-- Button 2 -->
+                            <a href="agents.html" class="group relative inline-flex items-center justify-center px-8 py-4 font-semibold text-white transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] transform rounded-[14px] hover:-translate-y-1 active:translate-y-0 overflow-hidden shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)] hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.7)] border border-[#404040] hover:border-[#606060]">
+                                <div class="absolute inset-0 bg-linear-to-b from-[#333333] to-[#111111] transition-colors duration-500 group-hover:from-[#444444] group-hover:to-[#222222]"></div>
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-linear-to-t from-white/5 to-transparent"></div>
+                                <span class="relative flex items-center gap-2">
+                                    <span class="relative block overflow-hidden h-[1.2em]">
+                                        <span class="block transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-full text-base">Browse templates</span>
+                                        <span class="absolute inset-0 block translate-y-full transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:translate-y-0 text-white text-base font-bold drop-shadow-md">Browse templates</span>
+                                    </span>
+                                    <div class="overflow-hidden w-0 group-hover:w-5 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-center">
+                                        <svg class="w-5 h-5 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
+                                        </svg>
+                                    </div>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="relative w-full mx-auto lg:ml-auto lg:col-span-5 col-span-6 h-[620px] rounded-2xl overflow-hidden">
+
+                        <!-- Gradient Border Wrapper -->
+                        <div class="absolute inset-0 rounded-2xl bg-linear-to-br from-[#c18cfa] via-[#e5b3fa] to-[#f5bded] p-[3px] shadow-2xl z-10">
+                            <!-- Main Chat Window Card -->
+                            <div class="relative bg-white rounded-[21px] overflow-hidden flex flex-col h-full rounded-2xl">
+
+                                <!-- Top Bar -->
+                                <div class="flex items-center justify-between px-6 py-5 bg-white z-10">
+                                    <!-- Dots -->
+                                    <div class="flex gap-1.5">
+                                        <div class="lg:size-3 size-1.5 rounded-full bg-[#ff5f56]"></div>
+                                        <div class="lg:size-3 size-1.5 rounded-full bg-[#ffbd2e]"></div>
+                                        <div class="lg:size-3 size-1.5 rounded-full bg-[#27c93f]"></div>
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="flex flex-col items-center justify-center -ml-4">
+                                        <div class="text-base lg:text-[19px] font-bold text-default-950 leading-tight">Agent conversation</div>
+                                        <div class="text-[13px] text-default-500 font-medium">AI agent ↔ User</div>
+                                    </div>
+
+                                    <!-- Live Badge -->
+                                    <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-green-500/40 bg-white text-green-600 text-[12px] font-medium shadow-sm">
+                                        <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+                                        Live
+                                    </div>
+                                </div>
+
+                                <!-- Chat Area -->
+                                <div class="flex-1 p-6 overflow-y-auto flex flex-col gap-6 scrollbar-hide pb-24 bg-[#fafafa]">
+
+                                    <!-- User Message 1 -->
+                                    <div class="flex justify-end ml-12">
+                                        <div class="bg-white border border-default-200 rounded-[20px] rounded-tr-sm px-6 py-4 text-[13px] text-default-700 font-medium leading-[1.6] shadow-[0_2px_12px_rgba(0,0,0,0.03)]">
+                                            A new teammate joined today. Create an onboarding checklist and request tool access for them.
+                                        </div>
+                                    </div>
+
+                                    <!-- Agent Message 1 -->
+                                    <div class="flex items-end gap-3 mr-12 relative z-20">
+                                        <div class="w-10 h-10 rounded-full overflow-hidden shrink-0 shadow-md bg-purple-500 relative z-20 border-2 border-white">
+                                            <img src="/images/avatar/avatar-23.jpg" class="w-full h-full object-cover">
+                                        </div>
+                                        <div class="bg-linear-to-r from-[#e7d2ff] to-[#f4d1f2] border border-[#522583] rounded-[20px] rounded-bl-sm px-6 py-4 text-[13px] text-[#2c054b] font-medium leading-[1.6] shadow-sm relative z-20">
+                                            What. What's their role and start date? Also, which tools do they need: Slack, Notion, Jira, or GitHub?
+                                        </div>
+                                    </div>
+
+                                    <!-- User Message 2 -->
+                                    <div class="flex justify-end ml-12">
+                                        <div class="bg-white border border-default-200 rounded-[20px] rounded-tr-sm px-6 py-4 text-[13px] text-default-700 font-medium leading-[1.6] shadow-[0_2px_12px_rgba(0,0,0,0.03)]">
+                                            Marketing. Start date: today. Tools: Slack, Notion, and Jira.
+                                        </div>
+                                    </div>
+
+                                    <!-- Agent Message 2 -->
+                                    <div class="flex items-end gap-3 mr-12 relative z-20">
+                                        <div class="w-10 h-10 rounded-full overflow-hidden shrink-0 shadow-md bg-purple-500 relative z-20 border-2 border-white">
+                                            <img src="/images/avatar/avatar-23.jpg" class="w-full h-full object-cover">
+                                        </div>
+                                        <div class="bg-linear-to-r from-[#e7d2ff] to-[#f4d1f2] border border-[#522583] rounded-[20px] rounded-bl-sm px-6 py-4 text-[13px] text-[#2c054b] font-medium leading-[1.6] shadow-sm relative z-20">
+                                            Got it. I created an onboarding checklist with week 1 tasks and drafted access requests for Slack, Notion, and Jira.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pop-out Avatar Image -->
+                        <img src="/images/features/agent-image.png" class="absolute bottom-0 -inset-s-16 w-[80%] max-w-[360px] z-20 pointer-events-none drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]" alt="Agent Image">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section>
+            <div class="container">
+                <!-- Section Header -->
+                <div class="text-center max-w-2xl mx-auto md:mb-12.5 mb-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-default-950 leading-[1.15] tracking-tight md:mb-6 mb-4">
+                        Why teams choose<br>this platform
+                    </h2>
+                    <p class="text-lg text-default-600 leading-[1.6] md:w-lg mx-auto">
+                        Teams use this platform to automate real work without losing control, visibility, or trust.
+                    </p>
+                </div>
+
+                <!-- Benefits Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:gap-7.5 gap-5">
+
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-3xl md:p-7.5 p-2.5 border border-default-200/80 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+                        <div class="md:size-12.5 size-10 bg-linear-to-b from-[#3a3a3a] to-[#1a1a1a] rounded-xl flex items-center justify-center md:mb-7.5 mb-3 shadow-md text-white">
+                            <i class="iconify tabler--briefcase w-6 h-6"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-2.5 tracking-tight">Agents that do real work</h3>
+                        <p class="md:text-lg text-base text-default-500 leading-[1.6] font-normal">Go beyond chat. Agents can draft, route, update, and take action.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-3xl md:p-7.5 p-2.5 border border-default-200/80 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+                        <div class="md:size-12.5 size-10 bg-linear-to-b from-[#3a3a3a] to-[#1a1a1a] rounded-xl flex items-center justify-center md:mb-7.5 mb-3 shadow-md text-white">
+                            <i class="iconify tabler--shield-lock w-6 h-6"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-2.5 tracking-tight">Control built in</h3>
+                        <p class="md:text-lg text-base text-default-500 leading-[1.6] font-normal">Set rules, approvals, and limits so agents act only when they should.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-3xl md:p-7.5 p-2.5 border border-default-200/80 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+                        <div class="md:size-12.5 size-10 bg-linear-to-b from-[#3a3a3a] to-[#1a1a1a] rounded-xl flex items-center justify-center md:mb-7.5 mb-3 shadow-md text-white">
+                            <i class="iconify tabler--apps w-6 h-6"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-2.5 tracking-tight">Works with your tools</h3>
+                        <p class="md:text-lg text-base text-default-500 leading-[1.6] font-normal">Agents run inside the tools your team already uses.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-white rounded-3xl md:p-7.5 p-2.5 border border-default-200/80 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+                        <div class="md:size-12.5 size-10 bg-linear-to-b from-[#3a3a3a] to-[#1a1a1a] rounded-xl flex items-center justify-center md:mb-7.5 mb-3 shadow-md text-white">
+                            <i class="iconify tabler--eye w-6 h-6"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-2.5 tracking-tight">Full visibility</h3>
+                        <p class="md:text-lg text-base text-default-500 leading-[1.6] font-normal">See every action, decision, and escalation in clear audit trails.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-white rounded-3xl md:p-7.5 p-2.5 border border-default-200/80 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+                        <div class="md:size-12.5 size-10 bg-linear-to-b from-[#3a3a3a] to-[#1a1a1a] rounded-xl flex items-center justify-center md:mb-7.5 mb-3 shadow-md text-white">
+                            <i class="iconify tabler--trending-up w-6 h-6"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-2.5 tracking-tight">Improves over time</h3>
+                        <p class="md:text-lg text-base text-default-500 leading-[1.6] font-normal">Track patterns, fix gaps, and refine agent behavior using data.</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-white rounded-3xl md:p-7.5 p-2.5 border border-default-200/80 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+                        <div class="md:size-12.5 size-10 bg-linear-to-b from-[#3a3a3a] to-[#1a1a1a] rounded-xl flex items-center justify-center md:mb-7.5 mb-3 shadow-md text-white">
+                            <i class="iconify tabler--arrows-maximize w-6 h-6"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-2.5 tracking-tight">Built to scale</h3>
+                        <p class="md:text-lg text-base text-default-500 leading-[1.6] font-normal">Shared controls make it easy to manage agents across teams.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Platform Features Section -->
+        <section class="lg:py-37.5 md:py-25 py-20">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="text-center max-w-2xl mx-auto md:mb-12.5 mb-8">
+                    <div class="inline-flex items-center justify-center px-4 py-1.5 rounded-full border border-purple-500/30 text-default-800 text-sm font-medium mb-4 bg-white/50 backdrop-blur-sm">
+                        Core features
+                    </div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-default-950 leading-[1.15] tracking-tight">
+                        Core platform features
+                    </h2>
+                </div>
+
+                <div class="md:max-w-5xl mx-auto flex flex-col md:gap-20 gap-15">
+
+                    <!-- Feature Block 1 -->
+                    <div class="grid lg:grid-cols-[1.6fr_1.2fr] md:grid-cols-2 grid-cols-1 lg:gap-12.5 gap-7.5 items-center">
+                        <!-- Left Side Image -->
+                        <div class="relative rounded-3xl overflow-hidden shadow-sm lg:p-7.5 px-3.75 py-7.5 flex flex-col group md:h-110">
+                            <!-- Background Image -->
+                            <div class="absolute inset-0 z-0">
+                                <img src="/images/features/bg-image-05.jpg" alt="Background Gradient" class="w-full h-full object-cover transition-transform duration-700">
+                            </div>
+
+                            <div class="relative z-10 flex flex-col flex-1">
+                                <!-- Top Image Diagram -->
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="/images/features/vector-13.png" alt="Workflow Feature Image" class="w-full max-w-132 h-auto object-contain drop-shadow-2xl">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Right Side Content -->
+                        <div class="flex flex-col items-start">
+                            <h3 class="md:text-3xl text-2xl font-bold text-default-950 mb-2.5">Workflow actions with guardrails</h3>
+                            <p class="md:text-lg text-base text-default-600 leading-[1.6] lg:mb-10 md:mb-7.5 mb-5">
+                                Agents draft summaries, create tasks, and route work. You decide what runs automatically and needs approval.
+                            </p>
+
+                            <div class="w-full h-px bg-default-200 md:mb-7.5 mb-5"></div>
+
+                            <div class="grid grid-cols-2 md:gap-7.5 gap-4 w-full">
+                                <div class="flex flex-col">
+                                    <div class="size-10 bg-default-800 rounded-xl flex items-center justify-center mb-5 shadow-sm text-white">
+                                        <i class="iconify tabler--user-check w-5 h-5"></i>
+                                    </div>
+                                    <h4 class="md:text-xl text-lg font-bold text-default-950 mb-2">Human-in-the-loop</h4>
+                                    <p class="md:text-lg text-base text-default-500 leading-[1.6]">Agents draft actions. People approve when it matters.</p>
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="size-10 bg-default-800 rounded-xl flex items-center justify-center mb-5 shadow-sm text-white">
+                                        <i class="iconify tabler--alert-triangle w-5 h-5"></i>
+                                    </div>
+                                    <h4 class="md:text-xl text-lg font-bold text-default-950 mb-2">Safe escalations</h4>
+                                    <p class="md:text-lg text-base text-default-500 leading-[1.6]">Unclear or risky actions are routed to the right person.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature Block 2 -->
+                    <div class="grid lg:grid-cols-[1.2fr_1.6fr] md:grid-cols-2 grid-cols-1 lg:gap-12.5 gap-7.5 items-center">
+                        <!-- Left Side Content -->
+                        <div class="flex flex-col items-start md:order-1 order-2">
+                            <h3 class="md:text-3xl text-2xl font-bold text-default-950 mb-2.5">Agent creation & templates</h3>
+                            <p class="md:text-lg text-base text-default-600 leading-[1.6] lg:mb-10 md:mb-7.5 mb-5">
+                                Start fast with ready-made agents or build your own from scratch.
+                            </p>
+
+                            <ul class="flex flex-col gap-2.5">
+                                <li class="flex items-start gap-2.5">
+                                    <div class="flex items-center justify-center text-purple-600 lg:mt-0 md:mt-1">
+                                        <i class="iconify tabler--check size-5"></i>
+                                    </div>
+                                    <span class="md:text-lg text-sm text-default-700">Ready-to-use agent templates by role</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <div class="flex items-center justify-center text-purple-600 lg:mt-0 md:mt-1">
+                                        <i class="iconify tabler--check size-5"></i>
+                                    </div>
+                                    <span class="md:text-lg text-sm font-medium text-default-700">Custom agent setup with clear rules</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <div class="flex items-center justify-center text-purple-600 lg:mt-0 md:mt-1">
+                                        <i class="iconify tabler--check size-5"></i>
+                                    </div>
+                                    <span class="md:text-lg text-sm font-medium text-default-700">Editable prompts and permissions</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <div class="flex items-center justify-center text-purple-600 lg:mt-0 md:mt-1">
+                                        <i class="iconify tabler--check size-5"></i>
+                                    </div>
+                                    <span class="md:text-lg text-sm font-medium text-default-700">Reusable templates across teams</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Right Side Image -->
+                        <div class="relative rounded-3xl overflow-hidden bg-linear-to-b from-[#151515] to-[#0a0a0a] pt-12 px-12 pb-0 flex flex-col items-center border border-[#2a2a2a] shadow-2xl md:h-[400px] md:order-2 order-1">
+                            <img src="/images/features/vector-14.png" alt="UI Element" class="w-full max-w-[400px] drop-shadow-xl mb-4 relative z-10">
+
+                            <!-- Avatars at the bottom -->
+                            <div class="relative w-full h-[150px] mt-auto flex justify-center items-end z-20">
+                                <img src="/images/features/vector-15.png" alt="Agent Avatars" class="w-full max-w-[450px] object-cover object-bottom translate-y-4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature Block 3 -->
+                    <div class="grid lg:grid-cols-[1.6fr_1.2fr] md:grid-cols-2 grid-cols-1 lg:gap-12.5 gap-7.5 items-center">
+                        <!-- Left Side Image -->
+                        <div class="relative rounded-3xl overflow-hidden bg-[#110515] p-8 md:aspect-square lg:aspect-[4/3] flex items-center justify-center border border-purple-900/30">
+                            <img src="/images/features/bg-image-07.jpg" alt="Dark Background" class="absolute inset-0 w-full h-full object-cover opacity-60">
+                            <img src="/images/features/vector-18.png" alt="Visibility Dashboard" class="relative z-10 w-[85%] drop-shadow-2xl">
+                        </div>
+
+                        <!-- Right Side Content -->
+                        <div class="flex flex-col items-start">
+                            <h3 class="md:text-3xl text-2xl font-bold text-default-950 mb-4">Visibility & improvement</h3>
+                            <p class="md:text-lg text-base text-default-600 leading-[1.6] lg:lg:mb-10 md:mb-7.5 mb-5">
+                                Know what agents are doing and make them better over time.
+                            </p>
+
+                            <div class="w-full h-px bg-default-200 mb-8"></div>
+
+                            <div class="flex flex-col gap-1.5 w-full">
+                                <div class="flex items-center gap-5">
+                                    <div class="md:text-[28px] text-xl font-bold text-default-950 w-24">100%</div>
+                                    <div class="w-px h-12 bg-default-200"></div>
+                                    <p class="lg:text-lg text-base text-default-500 leading-[1.6] flex-1">Every agent action is logged automatically.</p>
+                                </div>
+                                <div class="w-full h-px bg-default-100"></div>
+                                <div class="flex items-center gap-6">
+                                    <div class="md:text-[28px] text-xl font-bold text-default-950 w-24">40%</div>
+                                    <div class="w-px h-12 bg-default-200"></div>
+                                    <p class="lg:text-lg text-base text-default-500 leading-[1.6] flex-1">Refined rules reduce unnecessary handoffs.</p>
+                                </div>
+                                <div class="w-full h-px bg-default-100"></div>
+                                <div class="flex items-center gap-6">
+                                    <div class="md:text-[28px] text-xl font-bold text-default-950 w-24">2x</div>
+                                    <div class="w-px h-12 bg-default-200"></div>
+                                    <p class="lg:text-lg text-base text-default-500 leading-[1.6] flex-1">Clear insights drive faster agent improvements</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Security Section -->
+        <section>
+            <div class="md:px-10 px-3.75">
+                <!-- Dark Card -->
+                <div class="relative bg-black rounded-3xl overflow-hidden lg:py-37.5 md:py-25 py-20 shadow-2xl">
+                    <div class="container">
+
+                        <div class="grid lg:grid-cols-[0.5fr_1.5fr] grid-cols-1 lg:gap-0 md:gap-10 gap-5">
+                            <!-- Background Pattern -->
+                            <img src="/images/features/vector-11.png" class="absolute inset-s-0 bottom-0 w-full lg:w-1/2 object-cover object-left-bottom opacity-80 pointer-events-none mix-blend-screen" alt="BG Pattern">
+
+                            <!-- Left Side -->
+                            <div class="relative z-10 w-full flex flex-col items-start">
+                                <h2 class="md:text-3xl text-2xl font-bold text-white leading-[1.15] tracking-tight lg:mb-10 mb-5">
+                                    Built for control, privacy, and accountability
+                                </h2>
+                                <div class="flex items-center gap-6">
+                                    <img src="/images/features/security-icon1.svg" class="h-10 lg:h-12 w-auto object-contain" alt="Security Badge 1">
+                                    <img src="/images/features/security-icon2.svg" class="h-10 lg:h-12 w-auto object-contain" alt="Security Badge 2">
+                                    <img src="/images/features/security-icon3.svg" class="h-10 lg:h-12 w-auto object-contain" alt="Security Badge 3">
+                                </div>
+                            </div>
+
+                            <!-- Right Side (Cards) -->
+                            <div class="grid md:grid-cols-3 grid-cols-1 gap-7.5">
+                                <!-- Sub-Card 1 -->
+                                <div class="flex-1 bg-transparent border border-default-900 rounded-2xl lg:p-7.5 p-5 flex flex-col transition-colors">
+                                    <div class="w-10 h-10 bg-default-800 rounded-xl flex items-center justify-center mb-15 shadow-sm text-white/80">
+                                        <i class="iconify tabler--database-off w-5 h-5"></i>
+                                    </div>
+                                    <h4 class="text-white md:text-xl text-lg font-normal mb-2.5 leading-[1.4]">Zero data retention & training.</h4>
+                                    <p class="text-default-500 text-base lg:leading-[1.6] leading-[1.3]">Keep sensitive information out of training and control retention based on your policy.</p>
+                                </div>
+
+                                <!-- Sub-Card 2 -->
+                                <div class="flex-1 bg-transparent border border-default-900 rounded-2xl lg:p-7.5 p-5 flex flex-col transition-colors">
+                                    <div class="w-10 h-10 bg-default-800 rounded-xl flex items-center justify-center mb-15 shadow-sm text-white/80">
+                                        <i class="iconify tabler--refresh w-5 h-5"></i>
+                                    </div>
+                                    <h4 class="text-white md:text-xl text-lg font-normal mb-2.5 leading-[1.4]">Reflection</h4>
+                                    <p class="text-default-500 text-base lg:leading-[1.6] leading-[1.3]">Execution loops that help agents reflect on results, catch issues, and improve output consistency.</p>
+                                </div>
+
+                                <!-- Sub-Card 3 -->
+                                <div class="flex-1 bg-transparent border border-default-900 rounded-2xl lg:p-7.5 p-5 flex flex-col transition-colors">
+                                    <div class="w-10 h-10 bg-default-800 rounded-xl flex items-center justify-center mb-15 shadow-sm text-white/80">
+                                        <i class="iconify tabler--clipboard-list w-5 h-5"></i>
+                                    </div>
+                                    <h4 class="text-white md:text-xl text-lg font-normal mb-2.5 leading-[1.4]">Audit everything</h4>
+                                    <p class="text-default-500 text-base lg:leading-[1.6] leading-[1.3]">Deep insight and auditing into what agents do, what they use, and what they escalate.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section class="lg:py-37.5 md:py-25 py-20">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="text-center mb-8 md:mb-12 lg:mb-20">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-default-950 leading-[1.15] tracking-tight">
+                        How teams use these features
+                    </h2>
+                </div>
+
+                <!-- Tabs Navigation -->
+                <div class="flex justify-center border-b border-default-200 w-full mb-10 overflow-x-auto scrollbar-hide">
+                    <nav class="grid grid-cols-2 md:grid-cols-5 space-x-0 md:space-x-4 lg:space-x-8" aria-label="Tabs" role="tablist">
+                        <button type="button" class="col-span-2 md:col-span-1 hs-tab-active:border-purple-600 hs-tab-active:text-purple-600 border-transparent text-default-500 hover:text-default-800 py-3 md:py-4 px-2 flex flex-row md:flex-col lg:flex-row items-center justify-center text-center border-b-2 text-base md:text-lg font-medium active transition-colors leading-tight gap-1 md:gap-0 lg:gap-1 whitespace-nowrap md:whitespace-normal lg:whitespace-nowrap" id="usecase-tab-1" data-hs-tab="#usecase-pane-1" aria-controls="usecase-pane-1" role="tab">
+                            <span>Product &</span>
+                            <span>Engineering</span>
+                        </button>
+                        <button type="button" class="hs-tab-active:border-purple-600 hs-tab-active:text-purple-600 border-transparent text-default-500 hover:text-default-800 py-3 md:py-4 px-1 md:px-2 flex flex-row md:flex-col lg:flex-row items-center justify-center text-center border-b-2 text-base md:text-lg font-medium transition-colors leading-tight gap-1 md:gap-0 lg:gap-1 whitespace-nowrap md:whitespace-normal lg:whitespace-nowrap" id="usecase-tab-2" data-hs-tab="#usecase-pane-2" aria-controls="usecase-pane-2" role="tab">
+                            <span>Customer</span>
+                            <span>Support</span>
+                        </button>
+                        <button type="button" class="hs-tab-active:border-purple-600 hs-tab-active:text-purple-600 border-transparent text-default-500 hover:text-default-800 py-3 md:py-4 px-1 md:px-2 flex flex-row md:flex-col lg:flex-row items-center justify-center text-center border-b-2 text-base md:text-lg font-medium transition-colors leading-tight gap-1 md:gap-0 lg:gap-1 whitespace-nowrap md:whitespace-normal lg:whitespace-nowrap" id="usecase-tab-3" data-hs-tab="#usecase-pane-3" aria-controls="usecase-pane-3" role="tab">
+                            <span>HR & People</span>
+                            <span>Ops</span>
+                        </button>
+                        <button type="button" class="hs-tab-active:border-purple-600 hs-tab-active:text-purple-600 border-transparent text-default-500 hover:text-default-800 py-3 md:py-4 px-1 md:px-2 flex flex-row md:flex-col lg:flex-row items-center justify-center text-center border-b-2 text-base md:text-lg font-medium transition-colors leading-tight gap-1 md:gap-0 lg:gap-1 whitespace-nowrap md:whitespace-normal lg:whitespace-nowrap" id="usecase-tab-4" data-hs-tab="#usecase-pane-4" aria-controls="usecase-pane-4" role="tab">
+                            <span>Sales</span>
+                        </button>
+                        <button type="button" class="hs-tab-active:border-purple-600 hs-tab-active:text-purple-600 border-transparent text-default-500 hover:text-default-800 py-3 md:py-4 px-1 md:px-2 flex flex-row md:flex-col lg:flex-row items-center justify-center text-center border-b-2 text-base md:text-lg font-medium transition-colors leading-tight gap-1 md:gap-0 lg:gap-1 whitespace-nowrap md:whitespace-normal lg:whitespace-nowrap" id="usecase-tab-5" data-hs-tab="#usecase-pane-5" aria-controls="usecase-pane-5" role="tab">
+                            <span>IT &</span>
+                            <span>Operations</span>
+                        </button>
+                    </nav>
+                </div>
+
+                <!-- Tabs Content -->
+                <div class="mt-3">
+
+                    <!-- Tab Pane 1: Product & Engineering -->
+                    <div id="usecase-pane-1" role="tabpanel" aria-labelledby="usecase-tab-1">
+                        <div class="grid md:grid-cols-2 grid-cols-1 shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white rounded-3xl">
+                            <div class="w-full md:p-12.5 p-3.75 flex flex-col justify-between">
+                                <div>
+                                    <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-1.5">Product & Engineering</h3>
+                                    <p class="text-default-600 text-lg mb-5 leading-[1.6]">Keep projects on track without manual follow-ups.</p>
+                                    <ul class="list-disc list list-inside space-y-2.5 text-default-600 font-normal">
+                                        <li>What breaks in real teams</li>
+                                        <li>Task progress summaries</li>
+                                        <li>Blocker detection & escalation</li>
+                                    </ul>
+                                </div>
+                                <div class="md:mt-12 mt-7.5 inline-flex w-fit px-5 py-2 rounded-full border border-default-200 bg-default-50 text-sm text-default-600 font-medium">
+                                    30% fewer status check-ins
+                                </div>
+                            </div>
+                            <div class="w-full md:h-95">
+                                <img src="/images/features/case-image-01.jpg" class="w-full h-full object-cover rounded-3xl" alt="Product & Engineering">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Pane 2: Customer Support -->
+                    <div id="usecase-pane-2" class="hidden" role="tabpanel" aria-labelledby="usecase-tab-2">
+                        <div class="grid md:grid-cols-2 grid-cols-1 shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white rounded-3xl">
+                            <div class="w-full md:h-95">
+                                <img src="/images/features/case-image-04.jpg" class="w-full h-full object-cover rounded-3xl" alt="Customer Support">
+                            </div>
+                            <div class="w-full md:p-12.5 p-3.75 flex flex-col justify-between">
+                                <div>
+                                    <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-1.5">Customer Support</h3>
+                                    <p class="text-default-600 text-lg mb-5 leading-[1.6]">Handle routine requests while protecting quality.</p>
+                                    <ul class="list-disc list list-inside space-y-2.5 text-default-600 font-normal">
+                                        <li>Faster first responses</li>
+                                        <li>Consistent answers from approved sources</li>
+                                    </ul>
+                                </div>
+                                <div class="md:mt-12 mt-7.5 inline-flex w-fit px-5 py-2 rounded-full border border-default-200 bg-default-50 text-sm text-default-600 font-medium">
+                                    Up to 40% fewer escalations
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Pane 3: HR & People Ops -->
+                    <div id="usecase-pane-3" class="hidden" role="tabpanel" aria-labelledby="usecase-tab-3">
+                        <div class="grid md:grid-cols-2 grid-cols-1 shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white rounded-3xl">
+                            <div class="w-full md:p-12.5 p-3.75 flex flex-col justify-between">
+                                <div>
+                                    <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-1.5">HR & people ops
+                                    </h3>
+                                    <p class="text-default-600 text-lg mb-5 leading-[1.6]">Reduce back-and-forth while staying compliant.</p>
+                                    <ul class="list-disc list list-inside space-y-2.5 text-default-600 font-normal">
+                                        <li>Faster onboarding support</li>
+                                        <li>Policy-aligned responses every time</li>
+                                        <li>Leave and internal requests</li>
+                                    </ul>
+                                </div>
+                                <div class="md:mt-12 mt-7.5 inline-flex w-fit px-5 py-2 rounded-full border border-default-200 bg-default-50 text-sm text-default-600 font-medium">
+                                    50% fewer repeated HR questions
+                                </div>
+                            </div>
+                            <div class="w-full md:h-95">
+                                <img src="/images/features/case-image-03.jpg" class="w-full h-full object-cover rounded-3xl" alt="Product & Engineering">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Pane 4: Sales -->
+                    <div id="usecase-pane-4" class="hidden" role="tabpanel" aria-labelledby="usecase-tab-4">
+                        <div class="grid md:grid-cols-2 grid-cols-1 shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white rounded-3xl">
+                            <div class="w-full md:h-95">
+                                <img src="/images/features/case-image-02.jpg" class="w-full h-full object-cover rounded-3xl" alt="Sales">
+                            </div>
+                            <div class="w-full md:p-12.5 p-3.75 flex flex-col justify-between">
+                                <div>
+                                    <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-1.5">Sales</h3>
+                                    <p class="text-default-600 text-lg mb-5 leading-[1.6]">Support reps without replacing them, keeping humans in control.</p>
+                                    <ul class="list-disc list list-inside space-y-2.5 text-default-600 font-normal">
+                                        <li>Lead qualification
+                                        </li>
+                                        <li>Follow-up reminders</li>
+                                        <li>Call and meeting summaries
+                                        </li>
+                                        <li>Cleaner handoffs to sales teams</li>
+                                    </ul>
+                                </div>
+                                <div class="md:mt-12 mt-7.5 inline-flex w-fit px-5 py-2 rounded-full border border-default-200 bg-default-50 text-sm text-default-600 font-medium">
+                                    30% faster sales follow-ups
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Pane 5: IT & Operations -->
+                    <div id="usecase-pane-5" class="hidden" role="tabpanel" aria-labelledby="usecase-tab-5">
+                        <div class="grid md:grid-cols-2 grid-cols-1 shadow-[0_4px_30px_rgba(0,0,0,0.03)] bg-white rounded-3xl">
+                            <div class="w-full md:p-12.5 p-3.75 flex flex-col justify-between">
+                                <div>
+                                    <h3 class="md:text-2xl text-xl font-bold text-default-950 mb-1.5">IT & Operations
+                                    </h3>
+                                    <p class="text-default-600 text-lg mb-5 leading-[1.6]">Resolve common requests with complete visibility and traceability.</p>
+                                    <ul class="list-disc list list-inside space-y-2.5 text-default-600 font-normal">
+                                        <li>Reduced internal ticket load</li>
+                                        <li>Clear audit trails for every action</li>
+                                    </ul>
+                                </div>
+                                <div class="md:mt-12 mt-7.5 inline-flex w-fit px-5 py-2 rounded-full border border-default-200 bg-default-50 text-sm text-default-600 font-medium">
+                                    40% fewer support escalations
+                                </div>
+                            </div>
+                            <div class="w-full md:h-95">
+                                <img src="/images/features/case-image-05.jpg" class="w-full h-full object-cover rounded-3xl" alt="IT & Operations">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section>
+            <div class="container relative">
+                <div class="relative overflow-clip rounded-2xl md:pt-32 pt-20 md:pb-40 pb-20 px-8 lg:py-37.5 lg:px-20 text-center bg-cover bg-center bg-no-repeat bg-[url('/images/features/cec.jpg')] mx-auto z-10">
+
+                    <div class="relative z-20">
+                        <div class="max-w-4xl mx-auto flex flex-col items-center">
+                            <div>
+                                <div class="mb-10">
+                                    <h2 class="text-3xl md:text-[40px] lg:text-5xl font-bold text-default-800 mb-6 tracking-tight leading-tight">Build your first agent today.</h2>
+                                    <p class="text-lg text-default-700 leading-relaxed font-medium">Pick a template, connect your tools and knowledge, and deploy with guardrails. Scale to more workflows once the first agent proves value.</p>
+                                </div>
+                                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 w-full max-w-[260px] sm:max-w-none mx-auto">
+                                    <a href="pricing.html" class="inline-block bg-[linear-gradient(90deg,#5923b3_0%,#b929c4_100%)] text-white px-8 py-3.5 rounded-xl font-semibold shadow-lg transition-opacity w-auto">
+                                        <div class="relative overflow-hidden h-6 w-full flex items-center justify-center group">
+                                            <div class="transition-transform duration-300 transform group-hover:-translate-y-full">Start free trial</div>
+                                            <div class="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Start free trial</div>
+                                        </div>
+                                    </a>
+                                    <a href="agents.html" class="inline-block bg-[#222222] text-white px-8 py-3.5 rounded-xl font-semibold shadow-lg transition-colors border border-white/10 w-auto">
+                                        <div class="relative overflow-hidden h-6 w-full flex items-center justify-center group">
+                                            <div class="transition-transform duration-300 transform group-hover:-translate-y-full">Browse templates</div>
+                                            <div class="absolute inset-0 transition-transform duration-300 transform translate-y-full group-hover:translate-y-0">Browse templates</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Avatars & Decorations -->
+                    <img src="/images/avatar/avatar-23.jpg" loading="lazy" alt="Avatar Image" class="absolute top-6 inset-s-1/2 -translate-x-1/2 lg:top-14 lg:left-auto lg:right-90 lg:translate-x-0 size-10 lg:size-12.5 rounded-full shadow-lg z-10 block border border-purple-500">
+
+                    <img src="/images/avatar/avatar-26.jpg" loading="lazy" alt="Avatar Image" class="absolute top-24 inset-s-6 lg:top-20 lg:left-25 size-12 lg:size-20 rounded-full border border-amber-400 z-10 block">
+
+                    <div class="absolute bottom-16 inset-s-6 lg:bottom-32 lg:left-25 z-10 block group z-40">
+                        <img src="/images/avatar/avatar-21.jpg" loading="lazy" alt="Avatar Image" class="size-10 lg:size-12.5 rounded-full shadow-2xl relative z-10 border border-green-600">
+                        <img src="/images/icons/deco1.svg" class="absolute top-full inset-s-2 lg:left-4 w-20 lg:w-36 h-8.5 z-20">
+                    </div>
+
+                    <div class="absolute top-8 inset-e-6 lg:top-38 lg:right-24 z-10 block group">
+                        <img src="/images/avatar/avatar-24.jpg" loading="lazy" alt="Avatar Image" class="size-10 lg:size-17.5 rounded-full shadow-xl relative z-10">
+                        <img src="/images/icons/deco2.svg" class="absolute top-full inset-s-1 w-20 lg:w-28 h-8.5 z-20">
+                    </div>
+
+                    <img src="/images/avatar/avatar-25.jpg" loading="lazy" alt="Avatar Image" class="absolute bottom-6 inset-e-10 lg:bottom-24 lg:right-48 size-10 lg:size-15 rounded-full shadow-lg z-10 block">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    {{> footer }}
+
+</body>
+
+</html>

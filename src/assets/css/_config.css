@@ -1,0 +1,26 @@
+/* Themes Config */
+@theme {
+  --font-body: "Noto Serif Bangla", serif;
+  --font-heading: "Noto Serif Bangla", serif;
+
+  --color-primary-1:#2e1698;
+  --color-primary-2:#e930c9;
+  --color-primary-3:#2563eb;
+  --color-primary-6:#00ba00;
+  --color-primary-7:#7823b1;
+  
+  --color-body-bg:#f8f9fa;
+
+  --color-default-50: var(--color-neutral-50);
+  --color-default-100: var(--color-neutral-100);
+  --color-default-200: var(--color-neutral-200);
+  --color-default-300: var(--color-neutral-300);
+  --color-default-400: var(--color-neutral-400);
+  --color-default-500: var(--color-neutral-500);
+  --color-default-600: var(--color-neutral-600);
+  --color-default-700: var(--color-neutral-700);
+  --color-default-800: var(--color-neutral-800);
+  --color-default-900: var(--color-neutral-900);
+  --color-default-950: var(--color-neutral-950);
+
+}
